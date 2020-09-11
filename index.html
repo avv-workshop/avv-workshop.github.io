@@ -11,6 +11,12 @@
     <meta name="KeyWords" content="Conference">
     <title>Conference Template</title>
 
+    h1 {
+    display: list-item;          /* This has to be "list-item"                                               */
+    list-style-type: disc;       /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type     */
+    list-style-position: inside; /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-position */
+}
+    
 </head>
 
 <body>
@@ -71,6 +77,8 @@ With a number of breakthroughs in autonomous system technology over the past dec
 <li>Real-time deep learning inference</li>
 </ul>
 
+    <h1>My H1 text here</h1>
+    
     ul:nth-of-type(1) {
   list-style-type: disc;
 }
