@@ -33,7 +33,7 @@
      font-family:'Roboto',sans-serif;
      font-size:1.2em;
      line-height:1.5em;
-     margin: 60px auto;
+     margin: 50px auto;
      width: 1000px;
  }
  
@@ -65,7 +65,7 @@
  }
  table{
      width: 1000px;
-     margin: 12px auto 24px auto;
+     margin: 6px auto 24px auto;
      float: center;
      /* UNCOMMENT THIS FOR DEBUGGING THE ALIGNMENT */
      /*border: 1px solid black;*/
