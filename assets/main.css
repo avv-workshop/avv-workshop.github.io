@@ -18,7 +18,7 @@
  *{
      border:0;
      font:inherit;
-     font-size:1em;
+     font-size:1.3em;
      margin:0;
      padding:0;
      vertical-align:baseline;
@@ -31,7 +31,7 @@
      color: #505050; 
      text-align:left;
      font-family:'Roboto',sans-serif;
-     font-size:1.2em;
+     font-size:1.3em;
      line-height:1.5em;
      margin: 50px auto;
      width: 1000px;
@@ -65,7 +65,7 @@
  }
  table{
      width: 1000px;
-     margin: 6px auto 24px auto;
+     margin: 12px auto 24px auto;
      float: center;
      /* UNCOMMENT THIS FOR DEBUGGING THE ALIGNMENT */
      /*border: 1px solid black;*/
