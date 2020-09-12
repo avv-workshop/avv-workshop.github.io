@@ -50,7 +50,7 @@ sub{
 }
 table{
     width: 1000px;
-    margin: 6px auto 6px auto;
+    margin: 12px auto 24px auto;
     float: center;
     /* UNCOMMENT THIS FOR DEBUGGING THE ALIGNMENT */
     /*border: 1px solid black;*/
