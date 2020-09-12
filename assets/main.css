@@ -87,8 +87,8 @@
  .year{color: #505050; font-size:0.67em; font-weight: lighter;}
  
  /* Navigation Links (Home, Registration, etc) */
- table.navigation{width:800px;}
- td.navigation{font-size:1.67em; white-space:nowrap; width:20%; text-align:center; vertical-align:middle; padding:0px 0px 0px 0px;}
+ table.navigation{width:1000px;}
+ td.navigation{font-size:1.47em; white-space:nowrap; width:20%; text-align:center; vertical-align:middle; padding:0px 0px 0px 0px;}
  
  /* Sponsor Images */
  table.sponsors{width:800px;}
