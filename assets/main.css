@@ -1,18 +1,3 @@
-/* main.css */
-
-/* These are the colors and fonts used throughout the webpage.
- * I've listed them here so that a user may easily
- * do a search-and-replace for these to change the site theme.
- *   'Roboto',sans-serif; Font for the title text
- *   'Roboto-Slab',serif; Font for the body text 
- *   #fafafa; Background color of the site
- *   #505050; Foreground (text) color of the site
- *   #52739e; Navy, "Template" in the logo, current page in navigation, special titles in the Program
- *   #b2132e; Reddish, "Conference" in the logo, hover color for links
- *   #813c54; Heading color, titles in the Program
- *   #b8860b; Dark Goldenrod, color for links
- */
-
 @import url('https://fonts.googleapis.com/css?family=Roboto%7CRoboto+Slab');
 
 *{
@@ -65,7 +50,7 @@ sub{
 }
 table{
     width: 1000px;
-    margin: 6px auto 24px auto;
+    margin: 6px auto 6px auto;
     float: center;
     /* UNCOMMENT THIS FOR DEBUGGING THE ALIGNMENT */
     /*border: 1px solid black;*/
