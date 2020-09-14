@@ -22,12 +22,15 @@
      width: 1000px;
  }
  
+ /* a{color: #b8860b; text-decoration:none;}
+ a.current{color: #52739e;} */
  a{color: #b8860b; text-decoration:none;}
  a.current{color: #52739e;}
  a.current:hover{color: #e82945;}
  a:hover{color: #b2132e;}
  a:active{color: #e82945;}
- h1,h2,h3,h4{clear:left; color: #813c54; margin:1.5em 0em 1em 0em; font-family:'Roboto Slab',serif; text-shadow: 1px 1px 2px #d0d0d0;}
+ h1,h2,h3,h4{clear:left; color: #0f0640; margin:1.5em 0em 1em 0em; font-family:'Roboto Slab',serif; text-shadow: 1px 1px 2px #d0d0d0;}
+ /* h1,h2,h3,h4{clear:left; color: #813c54; margin:1.5em 0em 1em 0em; font-family:'Roboto Slab',serif; text-shadow: 1px 1px 2px #d0d0d0;} */
  h1{font-size:2.67em;}
  h2{font-size:2.00em;}
  h3{font-size:1.67em;}
@@ -67,13 +70,15 @@
  .bottom-right {font-size:1.63em; color: #fafafa; line-height: 1.27em; width: auto; height: 100px; padding: 0px 27px 27px 0px; text-align: right; position: absolute; bottom: 0px; right: 0px; text-shadow: 0px 0px 6px #000000;}
  
  /* Conference Title Logo */
- .title1{color: #b2132e; text-shadow: 1px 1px 3px #c0c0c0;} 
- .title2{color: #52739e; text-shadow: 1px 1px 3px #c0c0c0;}
+ .title1{color: #b22234; text-shadow: 1px 1px 3px #c0c0c0;} 
+ .title2{color: #3c3b6e; text-shadow: 1px 1px 3px #c0c0c0;}
+ /* .title1{color: #b2132e; text-shadow: 1px 1px 3px #c0c0c0;} 
+ .title2{color: #52739e; text-shadow: 1px 1px 3px #c0c0c0;} */
  .year{color: #505050; font-size:0.67em; font-weight: lighter;}
  
  /* Navigation Links (Home, Registration, etc) */
  table.navigation{width:1000px;}
- td.navigation{font-size:1.47em; white-space:nowrap; width:5%; text-align:center; vertical-align:middle; padding:0px 0px 0px 0px;}
+ td.navigation{font-size:1.00em; white-space:nowrap; width:5%; text-align:center; vertical-align:middle; padding:0px 0px 0px 0px;}
  
  /* Sponsor Images */
  table.sponsors{width:1000px;}
