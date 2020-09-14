@@ -14,12 +14,13 @@
 
 </head>
 
-<body>
-<script>
-
-var body = document.getElementById("body");
-body.style.setProperty('margin','0px'+' '+ window.screen.width/5 + 'px');
-
+<body id="body">
+<script type="text/javascript">
+var left_margin = (window.screen.width - 1000)/2
+if (window.screen.width < 1001){
+   left_margin = 0
+}
+document.getElementById("body").style.margin= "45px " +left_margin+"px";
 </script>
     <div class="banner">
         <img src="cover_img.png" alt="Conference Template Banner">
