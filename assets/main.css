@@ -14,7 +14,7 @@
      background-size: cover;
      background-attachment: fixed;
      color: #505050; 
-     text-align:left;
+     text-align:justify;
      font-family:'Roboto',sans-serif;
      font-size:1.5em;
      line-height:1.5em;
@@ -59,7 +59,7 @@
      /*border: 1px solid black;*/
  }
  th,td{
-     text-align: left;
+     text-align: justify;
      /* UNCOMMENT THIS FOR DEBUGGING THE ALIGNMENT */
      /*border: 1px solid black;*/
  }
