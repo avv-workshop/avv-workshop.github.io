@@ -19,8 +19,11 @@
 var left_margin = (window.screen.width - 1000)/2
 if (window.screen.width < 1001){
    left_margin = 0
+   document.getElementById("body").style.textAlign = 'left'
+
 }
 document.getElementById("body").style.margin= "45px " +left_margin+"px";
+
 </script>
 
     <div class="banner">
@@ -57,7 +60,7 @@ document.getElementById("body").style.margin= "45px " +left_margin+"px";
     </table>
 
     <h2>Welcome to Autonomous Vehicle Vision 2021</h2>
-    <p>
+    <p id="p0">
 The Autonomous Vehicle Vision 2021 (AVVision’21)
 workshop aims to bring together industry professionals
 and academics to brainstorm and exchange ideas on the advancement of
@@ -144,6 +147,7 @@ the following topics:
     <div class="banner">
         <img src="partners.png" alt="Conference Template Banner">
     </div>
+
 
 
    
