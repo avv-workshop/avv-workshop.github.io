@@ -10,7 +10,8 @@
  }
  
  body{
-     background-color: #fafafa;
+     /* background-color: #fafafa; */
+     background-color: #ffffff;
      background-size: cover;
      background-attachment: fixed;
      color: #505050; 
