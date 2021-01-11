@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <base href="..">
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png"/>
+    <link rel="stylesheet" type="text/css" media="all" href="assets/main.css"/>
+    <meta name="description" content="Conference Template">
+    <meta name="resource-type" content="document">
+    <meta name="distribution" content="global">
+    <meta name="KeyWords" content="Conference">
+    <title>AVVision</title>
+
+
+</head>
+
+<body id="body">
+<script type="text/javascript">
+var left_margin = (window.screen.width - 1000)/2
+if (window.screen.width < 1001){
+   left_margin = 0
+   document.getElementById("body").style.textAlign = 'left'
+}
+document.getElementById("body").style.margin= "45px " +left_margin+"px";
+</script>
+    <div class="banner">
+        <img src="./imgs/cover_img.png" alt="Conference Template Banner">
+        <!-- <div class="top-left">
+            <span class="title1">AVVision</span><span class="title2">2021</span> 
+        </div> -->
+        <div class="bottom-right">
+            January 9, 2021 <br> In Conjunction with WACV 2021
+        </div>
+    </div>
+
+    <table class="navigation">
+        <tr>
+            <td class="navigation">
+                <a  title="Conference Home Page" href=".">Home</a>
+            </td>
+            <td class="navigation">
+                <a title="Conference Program" href="committee">Organizers</a> 
+            </td>
+            <td class="navigation">
+                <a title="Speakers" href="speakers">Speakers</a> 
+            </td>
+            <td class="navigation">
+                <a title="Conference Program" href="dates">Dates</a> 
+            </td>
+            <td class="navigation">
+                <a title="Conference Program" href="submission">Submission</a> 
+            </td>
+            <td class="navigation">
+                <a class="current" title="Conference Program" href="challenge">Challenges</a> 
+            </td>
+            <td class="navigation">
+                <a title="Conference Program" href="program">Program</a> 
+            </td>
+        </tr>
+    </table>
+    
+    
+    <h2>CalmCar MTMC Tracking Challenge</h2>
+
+    <p>
+    
+        <b>* Instructions can be found 
+            <a href="https://github.com/calmcar-sys/WACV/blob/master/README.md">
+                here</a></b>.
+                <br>
+                <br>
+    <a href="https://www.calmcar.com/">CalmCar</a>, future mobility part supplier, specialized in 
+    deep learning-based embedded vision products 
+    and data services. CalmCar core product of 
+    multi-camera active surround view perception system 
+    is developed based on automotive grade computing
+    platform, it enables applications of smart 
+    parking, L2+ autonomous driving and crowd sourced mapping.
+    <br>
+    <br>
+    Multi-target multi-camera (MTMC) tracking systems can automatically
+     track multiple vehicles using an array of cameras. 
+     In this challenge, participants are required to design 
+     robust MTMC tracking algorithms, which are targeted at vehicles, 
+     where the same vehicles captured by different cameras 
+     possess the same tracking IDs.  The competitors will have access 
+     to four large-scale training datasets, each of which includes 
+     around 1200 annotated RGB images, where the labels cover 
+     the types of vehicles, tracking IDs and 2D bounding boxes. 
+     Identification precision (IDP) and identification recall (IDR)
+      will be used as metrics to evaluate the performance of
+       the implemented algorithms. The competitors are required
+        to submit their pretrained models as well as the corresponding
+         docker image files via the 
+         <a href="https://cmt3.research.microsoft.com/AVV2021/">
+            CMT submission system</a> for
+          algorithm evaluation (in terms of both speed and accuracy).
+    <br>
+    <br>
+    <b>The winner of the competition will receive a monetary prize 
+    (US$5000) and will give a keynote presentation at the workshop.</b>
+    </p>
+
+
+
+    <h2>HKUST-UDI UDA Challenge</h2>
+
+    <p>
+        <b>* Instructions can be found 
+            <a href="https://github.com/ruirangerfan/HKUST-UDI_UDA_Challenge">
+                here</a></b>.
+                <br>
+                <br>
+                <a href="https://www.ust.hk/home/">HKUST</a> is commonly regarded as one of the fastest growing
+     universities in the world. In 2019, the university 
+     was ranked seventh in Asia by QS and third by The Times, 
+     and around top 40 internationally.
+     It was ranked 27th in the world and second in Hong 
+     Kong by QS 2021. 
+     <br>
+     <br>
+     <a href="https://unity-drive.com/#/En">UDI</a> 
+     is committed to making autonomous systems everywhere. UDI
+     focuses on creating safe, stable, and mass-produced autonomous 
+     driving vehicles, providing integrated, efficient, and 
+     reproducible intelligent logistics solutions. UDI is 
+     leading the development of logistics automation in the 
+     era of Industry 4.0.
+    <br>
+    <br>
+Deep neural networks excel at learning from large amounts 
+of data but they can be inefficient when it comes to 
+generalizing and applying learned knowledge to new datasets 
+or environments. In this competition, participants need 
+to develop an unsupervised domain adaptation (UDA) framework 
+which can allow a model trained on a large synthetic dataset 
+to generalize to real-world imagery. The tasks in this 
+competition include: 1) UDA for monocular depth prediction 
+and 2) UDA for semantic driving-scene segmentation. 
+The competitors will have access to Ready to Drive (R2D) 
+dataset, which is a large-scale synthetic driving scene dataset 
+collected under different weather/illumination conditions 
+using the Carla Simulator. In addition, competitors 
+will also have access to a small amount of real-world data. 
+The mean absolute value of the relative (mAbsRel) error
+and the mean intersection over union (mIoU) score will be 
+used as metrics to evaluate the performance of UDA for monocular 
+depth prediction and UDA for semantic driving scene segmentation, 
+respectively. The competitors will be required to submit 
+their pretrained models and docker image files via the 
+<a href="https://cmt3.research.microsoft.com/AVV2021/">
+   CMT submission system</a>.
+   <br>
+   <br>
+The winner of the competition will give a keynote presentation at the workshop.
+    </p>
+
+
+
+    <h2>KITTI Object Detection Challenge</h2>
+  
+    <p>
+    Researchers of top-ranked object detection algorithms submitted to
+     the <a href="http://www.cvlibs.net/datasets/kitti/eval_3dobject.php">
+        KITTI Object Detection Benchmarks</a> will have the opportunity 
+        to present their work at AVVision'21, subject to space 
+        availability and approval by the workshop organizers. 
+        It should be noted that only the algorithms submitted before 12/20/2020 are
+            eligible for presentation at AVVision'21.
+    </p>
+    
+    
+
+   
+
+    </body>
+</html>
