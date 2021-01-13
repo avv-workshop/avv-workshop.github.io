@@ -18,8 +18,8 @@ h1, h2, h3, h4, h5, h6 {
     -o-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
     background-image: linear-gradient(to top, rgba(46, 49, 65, 0), rgba(46, 49, 65, 1)), url(../images/01_header_image.jpg);
-	/* background-size: auto, cover; */
-	background-size: 300px, 1200px;
+	background-size: auto, cover;
+	/* background-size: 100px, 1000px; */
     background-attachment: fixed;
     background-position: center, center;
     background-repeat: no-repeat;
@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
 	background-color: transparent;
 	border: 1px solid #ffffff;
 	color: #ffffff;
-	font-family: 'Istok Web', sans-serif;
+	font-family: 'Istok Web', georgia;
 	font-weight: 700;
 	font-size: 13px;
 	border-radius: 50px;
@@ -98,6 +98,13 @@ h1, h2, h3, h4, h5, h6 {
 	border-radius: 8px 8px 0 0;
 }
 
+
+
+
+
+
+
+
 @media (min-width: 598px) and (max-width: 992px) {
 	.four-features img {
 		border-radius: 0;
@@ -128,6 +135,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+
+
 .four-features .features-content{
 	padding: 55px 35px;
 }
@@ -145,6 +154,8 @@ textarea {
 	border-radius: 15px;
 }
 
+
+
 .btn-solid-state {
 	-webkit-transition: all 0.4s ease-in-out;
 	-moz-transition: all 0.4s ease-in-out;
@@ -154,7 +165,7 @@ textarea {
 	background-color: #242d44;
 	color: #ffffff;
 	border-radius: 25px;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', georgia;
 	font-weight: 300;
 	text-transform: uppercase;
 }
@@ -162,7 +173,7 @@ textarea {
     border: 1px solid #242d44;
     color: #242d44;
     border-radius: 25px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', georgia;
     font-weight: 300;
     text-transform: uppercase;
     background-color: transparent;
@@ -207,18 +218,18 @@ i.ion-ios-arrow-right {
 }
 
 h1,h2,h3,h4,h5,h6 {
-	font-family: 'Istok Web', sans-serif;
+	font-family: 'Istok Web', georgia;
 	font-weight: 700;
 }
 
 p {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', georgia;
 	font-weight: 300;
 	font-size: 21px;
 }
 
 #banner p {
-	font-family: 'Istok Web', sans-serif;
+	font-family: 'Istok Web', georgia;
 	font-weight: 400;
 	font-size: 18px;
 }
@@ -229,7 +240,7 @@ p {
     -ms-transition: all 0.4s ease-in-out;
     -o-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
-	font-family: 'Istok Web', sans-serif;
+	font-family: 'Istok Web', georgia;
 	font-weight: 700;
 	font-size: 13px;
 }
@@ -275,7 +286,7 @@ p {
 	border: 1px solid #ffffff;
 	border-radius: 20px;
 	color: #ffffff;
-	font-family: 'Istok Web', sans-serif;
+	font-family: 'Istok Web', georgia;
 	font-weight: 700;
 	padding: 5px 18px 5px 18px;
 	margin-top: 85px;
@@ -286,7 +297,7 @@ p {
     border: 1px solid #ffffff;
     border-radius: 20px;
     color: #242d44;
-    font-family: 'Istok Web', sans-serif;
+    font-family: 'Istok Web', georgia;
     font-weight: 700;
     padding: 5px 18px 5px 18px;
     margin-top: 85px;
@@ -342,7 +353,7 @@ h3 {
 
 .footer-bottom p {
 	text-align: center;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', georgia;
 	font-weight: 300;
 	font-size: 13px;
 	color: #333333;
@@ -371,7 +382,7 @@ h3 {
 	text-transform: uppercase;
 	border-radius: 0;
 	border: 1px solid #ffffff;
-	font-family: 'PT Sans', sans-serif;
+	font-family: 'PT Sans', georgia;
 	font-weight: 400;
 	margin-left: 10px;
 }
@@ -421,7 +432,7 @@ body.is-menu-visible #menu .inner {
 }
 
 #header nav {
-	font-family: Raleway, Helvetica, sans-serif;
+	font-family: Raleway, Helvetica, georgia;
 	font-size: 0.8em;
 	font-weight: 700;
 	height: 3em;
@@ -620,7 +631,7 @@ body.is-menu-visible #menu .inner {
 	color: transparent;
 	font-size: 26px;
 	padding-left: 15px;
-	font-family: 'Istok Web', sans-serif;
+	font-family: 'Istok Web', georgia;
 	font-weight: 700;
 }
 
@@ -636,14 +647,15 @@ body.is-menu-visible #menu .inner {
 
 .elements-h {
 	font-family: 'Istok Web', georgia;
-	font-weight: 600;
+	font-weight: 300;
 	font-size: 36px;
 	color: #ffffff;
 }
 
 .elements-header {
-	background-image: url(../../imgs/avvision_lr.jpg);
-	height: 700px;
+	background-image: url(../../imgs/avvision_lr.png);
+	background-repeat: no-repeat;
+	height: 550px;
     /* background-position-y: -300px;
     background-position-x: -500px; */
     position: relative;
@@ -657,13 +669,13 @@ body.is-menu-visible #menu .inner {
 
 .header-design h1 {
 	margin-bottom: 30px;
-	font-family: 'Istok Web', sans-serif;
+	font-family: 'Istok Web', georgia;
 	font-weight: 700;
 	font-size: 46px;
 }
 
 .header-design p {
-	font-family: 'Istok Web', sans-serif;
+	font-family: 'Istok Web', georgia;
 	font-weight: 400;
 	font-size: 21px;
 }
@@ -703,14 +715,14 @@ body.is-menu-visible #menu .inner {
 .elements-blockquote h1 {
 	margin-top: 87px;
 	margin-bottom: 32px;
-	font-family: 'Istok Web', sans-serif;
+	font-family: 'Istok Web', georgia;
 	font-weight: 700;
 	line-height: 44.82px;
 
 }
 
 .elements-blockquote p {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', georgia;
 	font-weight: 400;
 	font-style: italic;
 	padding: 15px;
@@ -725,14 +737,14 @@ body.is-menu-visible #menu .inner {
 
 .elements-list h1 {
 	margin-top: 85px;
-	font-family: 'Istok Web', sans-serif;
+	font-family: 'Istok Web', georgia;
 	font-weight: 700;
 	line-height: 44.82px;
 	margin-bottom: 50px;
 }
 
 .elements-list p{
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', georgia;
 	font-weight: 300;
 	font-size: 15px;
 	line-height: 27px;
@@ -741,7 +753,7 @@ body.is-menu-visible #menu .inner {
 
 .elements-list ul li {
 	list-style: none;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', georgia;
 	font-weight: 700;
 	font-size: 15px;
 	line-height: 38px;
@@ -749,7 +761,7 @@ body.is-menu-visible #menu .inner {
 }
 
 .elements-list ol li {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', georgia;
 	font-weight: 700;
 	font-size: 15px;
 	line-height: 38px;
@@ -783,7 +795,7 @@ body.is-menu-visible #menu .inner {
 
 .alternate h1 {
 	margin-bottom: 45px;
-	font-family: 'Istok Web', sans-serif;
+	font-family: 'Istok Web', georgia;
 	font-weight: 700;
 	line-height: 44.82px;
 }
@@ -791,7 +803,7 @@ body.is-menu-visible #menu .inner {
 .alternate ul {
 	padding-left: 0;
     list-style: none;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', georgia;
 	font-weight: 400;
 	font-size: 15px;
 	line-height: 38px;
@@ -803,7 +815,7 @@ body.is-menu-visible #menu .inner {
 
 .elements-icons h1 {
 	margin-bottom: 45px;
-	font-family: 'Istok Web', sans-serif;
+	font-family: 'Istok Web', georgia;
 	font-weight: 700;
 	line-height: 44.82px;
 }
@@ -869,6 +881,10 @@ body.is-menu-visible #menu .inner {
 	padding: 12px 140px;
 }
 
+
+
+
+
 @media only screen and (max-width: 417px) {
 	.btn-fit {
 		padding: 12px 90px;
@@ -923,7 +939,7 @@ section.table h1 {
 
 section.table h4 {
     margin-bottom: 25px;
-    font-family: 'roboto',sans-serif;
+    font-family: 'roboto',georgia;
     font-weight: 700;
     font-size: 15px;
 }
@@ -1009,7 +1025,7 @@ textarea#message {
 }
 
 .image-text p {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', georgia;
 	font-weight: 300;
 	font-size: 16px;
 	color: #ffffff;
@@ -1038,13 +1054,13 @@ textarea#message {
 }
 
 .button a {
-	font-family: 'Istok Web', sans-serif;
+	font-family: 'Istok Web', georgia;
 	font-weight: 700;
 	font-size: 13px;
 }
 
 .contact-form a {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', georgia;
 	font-weight: 300;
 	font-size: 13px;
 }
@@ -1084,6 +1100,13 @@ textarea#message {
 .tiles h4 {
 	font-size: 21px;
 }
+
+
+
+
+
+
+
 
 @media screen and (max-width: 767px) {
 	.table-responsive {
