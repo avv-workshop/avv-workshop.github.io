@@ -138,7 +138,7 @@ $(document).ready(function(){
 jQuery(document).ready(function($) {  
   $(window).load(function(){
     var $body = $('body');
-    $('#preloader').fadeOut('slow',function(){
+    $('#preloader').fadeOut('medium',function(){
       $(this).remove();
     });
     $('.body-content').fadeIn(2500);
