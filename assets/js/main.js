@@ -141,6 +141,6 @@ jQuery(document).ready(function($) {
     $('#preloader').fadeOut('medium',function(){
       $(this).remove();
     });
-    $('.body-content').fadeIn(2500);
+    $('.body-content').fadeIn(600);
   });
 });
