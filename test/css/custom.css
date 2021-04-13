@@ -152,7 +152,7 @@ iframe
     margin: 5px 20px;
     padding: 0;
     line-height: 28px;
-    font-family: "Coda";
+    font-family: "Georgia";
     text-transform: capitalize;
 }
 
@@ -166,7 +166,7 @@ iframe
 }
 .navbar-default .navbar-brand {
     color: #fff;
-    font-family: "Coda";  
+    font-family: "Georgia";  
     padding: 5px 15px;  
     font-size: 26px;  
     line-height: 100%;  
