@@ -82,12 +82,12 @@ button.navbar-toggle .ion-navicon {
 
 body {
     overflow-x: hidden;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Georgia';
 }
 
 p {
     font-size: 17px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Georgia';
     letter-spacing: 1px;
     line-height: 31px;
 }
@@ -112,14 +112,14 @@ li a
 }
 #heading-text h3 {
     font-size: 49px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Georgia';
     padding-top: 58px;
     text-transform: uppercase;
 }
 
 #heading-text p {
     font-size: 18px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Georgia';
     padding: 5px 0px
 }
 
