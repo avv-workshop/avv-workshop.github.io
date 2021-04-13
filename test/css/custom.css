@@ -112,14 +112,14 @@ li a
 }
 #heading-text h3 {
     font-size: 49px;
-    font-family: 'Georgia';
+    font-family: 'Roboto', sans-serif;
     padding-top: 58px;
     text-transform: uppercase;
 }
 
 #heading-text p {
     font-size: 18px;
-    font-family: 'Georgia';
+    font-family: 'Roboto', sans-serif;
     padding: 5px 0px
 }
 
@@ -201,15 +201,15 @@ iframe
     letter-spacing: 2px;
 }
 .rene {
-    font-size: 120px;
+    font-size: 50px;
     color: white;
-    font-family: "omnes-pro", "Helvetica", sans-serif;
+    font-family: "Georgia";
     font-weight: 300;
     margin-top: 75px;
 }
 
 .starting-text h2 {
-    font-family: "omnes-pro", "Helvetica", sans-serif;
+    font-family: "Georgia";
     color: #fff;
 }
 
@@ -912,7 +912,7 @@ form
     border-radius: 0;
 }
 
-@media (max-width: 712px) {
+/* @media (max-width: 712px) {
 
 }
 
@@ -1067,4 +1067,4 @@ form
 
     .input-group-addon {
         background-color: rgba(238, 238, 238, 0);
-    }
+    } */
