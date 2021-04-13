@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <base href="..">
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png"/>
+    <link rel="stylesheet" type="text/css" media="all" href="assets/main.css"/>
+    <meta name="description" content="Conference Template">
+    <meta name="resource-type" content="document">
+    <meta name="distribution" content="global">
+    <meta name="KeyWords" content="Conference">
+    <title>AVVision-WACV'21</title>
+
+
+</head>
+
+<body id="body">
+<script type="text/javascript">
+var left_margin = (window.screen.width - 1000)/2
+if (window.screen.width < 1001){
+   left_margin = 0
+   document.getElementById("body").style.textAlign = 'left'
+}
+document.getElementById("body").style.margin= "45px " +left_margin+"px";
+</script>
+    <div class="banner">
+        <img src="./imgs/cover_img.png" alt="Conference Template Banner">
+
+        <div class="bottom-right">
+            January 9, 2021 <br> In Conjunction with WACV 2021
+        </div>
+    </div>
+
+    <table class="navigation">
+        <tr>
+            <td class="navigation">
+                <a title="Conference Home Page" href=".">Home</a>
+            </td>
+            <td class="navigation">
+                <a title="Conference Program" href="committee">Organizers</a> 
+            </td>
+            <td class="navigation">
+                <a title="Speakers" href="speakers">Speakers</a> 
+            </td>
+            <td class="navigation">
+                <a title="Conference Program" href="dates">Dates</a> 
+            </td>
+            <td class="navigation">
+                <a title="Conference Program" href="submission">Submission</a> 
+            </td>
+            <td class="navigation">
+                <a title="Conference Program" href="challenge">Challenges</a> 
+            </td>
+            <td class="navigation">
+                <a class="current" title="Conference Program" href="program">Program</a> 
+            </td>
+        </tr>
+    </table>
+
+
+
+
+    <h1 style="color:black;font-size:27px;">Coming soon!</h1>
+
+
+
+
+    
+    <!-- <h1 style="color:black;font-size:27px;"></h1> 
+
+
+    <h1 style="color:black;font-size:27px;">Accepted Papers</h1> 
+    <b><a href="https://openaccess.thecvf.com/WACV2021_workshops/AVV">https://openaccess.thecvf.com/WACV2021_workshops/AVV</a></b>
+    <br>
+
+
+    <h1 style="color:black;font-size:27px;">Regular Paper Presentations</h1> 
+    <b><a href="https://youtube.com/playlist?list=PL51IczHEeqwS2iFAjsyZBn-1UxH1fdur6">https://youtube.com/playlist?list=PL51IczHEeqwS2iFAjsyZBn-1UxH1fdur6</a></b>
+    <br>
+    <br>
+    <br>
+
+
+    <h1 style="color:black;font-size:27px;">Session 1</h1> 
+
+
+    <h2 style="color:black;font-size:20px;">08:00-08:10: Opening Remarks</h2>
+    <h2 style="color:black;font-size:20px;">08:10-09:05: Keynote Talk 1 - Andreas Geiger</h2>
+
+
+    <b>Towards Robust End-to-End Driving</b>
+    <br>
+    <p>Abstract:
+    I will present several recent results of my group on learning 
+    robust driving policies that have advanced the state-of-the-art
+    in the CARLA self-driving simulation environment.
+    To generalize across diverse conditions, humans leverage
+    multiple types of situation-specific reasoning and learning
+    strategies. Motivated by this observation, I will first present
+    a framework for learning situational driving policies that
+    effectively captures reasoning under varying types of scenarios
+    and leads to 98% success rate on the CARLA self-driving benchmark
+    as well as state-of-the-art performance on a novel generalization
+    benchmark. Next, I will discuss the problem of covariate shift
+    in imitation learning. I will demonstrate that existing data
+    aggregation techniques for addressing this problem have poor
+    generalization performance, and present a novel approach with
+    empirically better generalization performance. Finally,
+    I will talk about the importance of intermediate representations
+    and attention for learning robust self-driving models.
+
+
+    <center>
+        <iframe width="800" height="450" src="https://www.youtube.com/embed/lSWyGV3zbC8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </center>
+
+
+    </p>
+
+
+
+    
+
+
+
+    <h2 style="color:black;font-size:20px;">09:05-10:00: Keynote Talk 2 - Ioannis Pitas</h2>
+    
+    <b>Semantic 3D world modeling</b>
+    <br>
+    <p>Abstract:
+    Geometry estimation and semantic segmentation are two  active  machine learning research topics.
+     Given single view or stereo images, depicted scene/object geometry in the form of 
+     depth maps can be accurately estimated. Similar neural network (NN) architectures 
+     can be successfully utilized for predicting semantic masks on an image. 
+     In several scenarios, both tasks are required at once, leading to the need of 
+     semantic world mapping techniques. In the wake of modern autonomous systems, 
+     simultaneous inference of both tasks by the same neural network is essential, 
+     as it offers considerable resource savings and can enhance performance, as these tasks can 
+     mutually benefit from each other. A great application area is 3D road scene modeling 
+     and semantic segmentation, e.g., to ‘road’, pavement regions that are essential for autonomous car driving.
+    
+     <center>
+        <iframe width="800" height="450" src="https://www.youtube.com/embed/XH60pZBncBI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </center>
+    
+    </p>
+    
+    
+
+
+    
+    
+    <h2 style="color:black;font-size:20px;">10:00-11:00: Paper Session 1</h2>
+    
+
+
+
+    <h3 style="color:black;font-size:20px;">
+    10:00-10:15
+    </h3>
+    <b>DriveGuard: Robustification of Automated Driving Systems with 
+    Deep Spatio-Temporal Convolutional Autoencoder</b>
+
+    <p style="font-size:16px;">
+    Andreas Papachristodoulou (KIOS CoE, University of Cyprus); 
+    Christos Kyrkou (KIOS CoE, University of Cyprus);
+    Theocharis Theocharides (University of Cyprus)
+
+    </p>
+
+    <center>
+    <iframe width="800" height="450" src="https://www.youtube.com/embed/oGzfU7YQWeU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </center>
+
+    
+
+
+    <h3 style="color:black;font-size:20px;">
+    10:15-10:30
+    </h3>
+    <b>Weakly Supervised Multi-Object Tracking and Segmentation</b>
+
+    <p style="font-size:16px;">
+    Idoia Ruiz (Computer Vision Center); 
+    Lorenzo Porzi (Facebook); 
+    Samuel Rota Bulò (Facebook); 
+    Peter Kontschieder (Facebook); 
+    Joan Serrat (Computer Vision Center)
+    </p>
+
+    
+    <center>
+    <iframe width="800" height="450" src="https://www.youtube.com/embed/9L5Ow0Y2oTo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </center>
+
+
+
+
+    <h3 style="color:black;font-size:20px;">
+        10:30-10:45
+        </h3>
+        <b>Domain Adaptive Knowledge Distillation for Driving Scene Semantic Segmentation</b>
+    
+    <p style="font-size:16px;">
+        Divya Kothandaraman (University of Maryland College Park); 
+        Athira Nambiar (Indian Institute of Technology Madras); 
+        Anurag Mittal (Indian Institute of Technology Madras)
+    </p>
+
+
+    <center>
+        <iframe width="800" height="450" src="https://www.youtube.com/embed/1VwUFNs7WQA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </center>
+
+
+    <h3 style="color:black;font-size:20px;">
+        10:45-11:00
+        </h3>
+        <b>Using Semantic Information to Improve Generalization of Reinforcement Learning Policies for Autonomous Driving</b>
+    
+    <p style="font-size:16px;">
+        Florence Carton (CEA); 
+        David Filliat (ENSTA Paris); 
+        Jaonary Rabarisoa (CEA); 
+        Quoc-Cuong Pham (CEA)
+    </p>
+
+
+    <center>
+        <iframe width="800" height="450" src="https://www.youtube.com/embed/IK4CRA1XIcM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </center>
+
+
+<br>
+<br>
+    <h1 style="color:black;font-size:27px;">Session 2</h1> 
+
+    
+    <h2 style="color:black;font-size:20px;">13:00-13:55: Keynote Talk 3 - Nemanja Djuric</h2>
+    <b>Object Detection and Motion Prediction for Safe Self-Driving using Raster-based Methods</b>
+    <br>
+    <p>Abstract:
+    Object detection and motion prediction are critical components of self-driving technology, 
+    tasked with understanding the current state of the world and estimating how it will evolve 
+    in the near future. In the talk we focus on these important problems, and discuss
+     raster-based methods developed at Uber ATG that have shown state-of-the-art performance. 
+     Such approaches encode the raw sensor data as top-down and/or front-view images of a 
+     surrounding area, providing near-complete contextual information necessary for 
+     accurate detection of traffic actors and their behavioral prediction. 
+     We present a number of recently proposed methods, ranging from models focusing solely 
+     on motion prediction to joint models that perform detection and prediction in an end-to-end 
+     fashion. We also discuss how to develop methods that obey map and other physical 
+     constraints of the traffic surroundings, resulting in more realistic predictions 
+     and improved modeling of uncertain environments in which the self-driving vehicles operate.
+
+     <center>
+        <iframe width="800" height="450" src="https://www.youtube.com/embed/9R9zmbsT_tg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </center>
+
+
+    </p>
+
+
+    <h2 style="color:black;font-size:20px;">13:55-14:50: Keynote Talk 4 - Walterio Mayol-Cuevas</h2>
+    <b>Pixel Processor Arrays to Bridging Perception and Action in Agile Robots</b>
+    <br>
+    <p>Abstract:
+    This talk will discuss recent advances in the development of visual architectures 
+    and their algorithms towards a step change in the direction of agile robotics. 
+    Current visual architectures often used in Robotic systems were not designed for 
+    vision nor action. They were designed for video recording or graphical processing. 
+    This hinders systems requiring low lag, low energy consumption and importantly 
+    force visual algorithms to process the world in ways that prevent effective coding for 
+    actions. In this talk I will describe work towards new architectures, 
+    specifically pixel processor arrays such as the SCAMP, that allow massive parallelism 
+    and focal-plane processing with reduced energy consumption. Examples include how 
+    these new architectures allow to perform visual computation onboard agile 
+    vehicles for tasks that involve visual odometry, recognition and deep network inference. 
+    </p>
+    
+    <center>
+        <iframe width="800" height="450" src="https://www.youtube.com/embed/Z-2pfjP2CK8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </center>
+
+
+    
+    <h2 style="color:black;font-size:20px;">14:50-15:50: Paper Session 2</h2>
+    
+
+
+
+    <h3 style="color:black;font-size:20px;">
+    14:50-15:05
+    </h3>
+    <b>Multi-Scale Voxel Class Balanced ASPP for LIDAR Pointcloud Semantic Segmentation</b>
+
+    <p style="font-size:16px;">
+    Chidanand Kumar K S (GWM); 
+    Samir Al-Stouhi (Haval)
+    </p>
+
+    <center>
+        <iframe width="800" height="450" src="https://www.youtube.com/embed/LiLkrRk5yG0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </center>
+
+
+
+    <h3 style="color:black;font-size:20px;">
+    15:05-15:20
+    </h3>
+    <b>Per-frame mAP Prediction for Continuous Performance Monitoring of Object Detection During Deployment</b>
+
+    <p style="font-size:16px;">
+        Quazi Marufur Rahman (Queensland University of Technology); 
+        Niko Suenderhauf (Queensland University of Technology); 
+        Feras Dayoub (Queensland University of Technology)
+    </p>
+
+    <center>
+        <iframe width="800" height="450" src="https://www.youtube.com/embed/ByDEfK13aRY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </center>
+
+
+    <h3 style="color:black;font-size:20px;">
+        15:20-15:35
+        </h3>
+        <b>Automatic Virtual 3D City Generation for Synthetic Data Collection</b>
+    
+    <p style="font-size:16px;">
+        Bingyu Shen (University of Notre Dame); 
+        Boyang Li (University of Notre Dame); 
+        Walter Scheirer (University of Notre Dame)
+    </p>
+
+    <center>
+        <iframe width="800" height="450" src="https://www.youtube.com/embed/P-w2T-SLKaQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </center>
+
+
+    <h3 style="color:black;font-size:20px;">
+        15:35-15:50
+        </h3>
+        <b>Reliability of GAN Generated Data to Train and Validate Perception Systems for Autonomous Vehicles</b>
+    
+    <p style="font-size:16px;">
+        Weihuang Xu (University of Florida); 
+        Nasim Souly (Volkswagen Group Innovation Center California); 
+        Pratik Prabhanjan Brahma (Volkswagen Group Innovation Center California)
+    </p>
+
+    <center>
+        <iframe width="800" height="450" src="https://www.youtube.com/embed/ZiQOxkVMU08" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </center>
+
+
+
+    <h2 style="color:black;font-size:20px;">15:50-16:20: CalmCar MTMC Tracking Challenge Winner Presentation </h2>
+    <p style="font-size:16px;">
+        Shiyu Chi (Tianjin University of Technology); 
+        Mian Zhou (Tianjin University of Technology)
+    </p>
+
+
+
+    <center>
+        <iframe width="800" height="450" src="https://www.youtube.com/embed/38iiSIFVjFs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </center>
+
+
+
+    <h2 style="color:black;font-size:20px;">16:20-16:30: Closing Remarks</h2>
+
+
+
+
+
+    </table> -->
+
+  
+
+</body>
+
+</html>
+
