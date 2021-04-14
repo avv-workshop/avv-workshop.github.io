@@ -56,7 +56,7 @@ a, a:hover, a:active{ outline:0px !important}
 body {
 	background:#fff;
 	font-family: 'Open Sans', sans-serif;
-	font-size:14px;
+	font-size:20px;
 	font-weight:normal;
 	color:#888888;
 	margin:0;
@@ -80,7 +80,7 @@ h3{
 	font-weight:400;
 }
 h6{
-	font-size:16px;
+	font-size:26px;
 	color:#888888;
 	font-family: 'Open Sans', sans-serif;
 	font-weight:400;
@@ -88,7 +88,8 @@ h6{
 	margin:0 0 60px 0;
 }
 p{
-	line-height:24px;
+	font-size:16px;
+	line-height:16px;
 	margin:0;
 }
 
@@ -101,7 +102,7 @@ p{
 	padding:40px 0;
 }
 .logo{
-	width:230px;
+	width:330px;
 	margin:0 auto 35px;
 }
 .header h1{
@@ -264,7 +265,8 @@ color: #fff;
 	line-height:22px;
 }
 .featured-work p.padding-b{
-	padding-bottom:35px;
+	padding-bottom:5px;
+	font-size: 600px;
 }
 .featured-box-col1{
 	width:60px;
@@ -316,12 +318,12 @@ color: #fff;
 ---------------------------------*/
 .Portfolio-nav{
 	padding:0;
-	margin:0 0 45px 0;
+	/* margin:0 0 45px 0; */
 	list-style:none;
 	text-align:center;
 }
 .Portfolio-nav li{
-	margin:0 10px;
+	/* margin:0 10px; */
 	display:inline;
 }
 .Portfolio-nav li a{
@@ -347,18 +349,25 @@ color: #fff;
 
 .portfolioContainer{
 	margin:0 auto;
-	/* text-align: center; */
-	/* padding-left:15px; */
+	/* margin-left: 200px; */
+	/* margin-right: auto; */
+	/* padding-left:200px; */
+	width: 840px;
 }
+/* .portfolioContainer{
+	margin:0 auto;
+	padding-left:15px;
+} */
 
 .Portfolio-box{
 	text-align:center;
-	margin-bottom:10px;
+	/* margin-bottom:5px; */
 	height:450px;
-	width:350px;
-	overflow:hidden;
+	width:230px;
+	margin: auto;
+	/* overflow:hidden; */
 	/* float:left; */
-	padding:0;
+	/* padding:10; */
 }
 .Portfolio-box img{
 	margin-bottom:25px;
@@ -396,7 +405,8 @@ img {
 }
 
 .main-section.paddind{
-	padding-bottom:60px;
+	padding-bottom:5px;
+	font-size: 20px;
 }
 
 /* Clients
@@ -494,14 +504,16 @@ border: 2px solid #fff;
 /* Team
 ---------------------------------*/
 .team-leader-block{
-	max-width:993px;
+	max-width:1500;
 	margin:0 auto;
 }
 .team-leader-box{
-	width:30.66%;
-	margin-right: 3.82979%;
-	height: 490px;
-	overflow: hidden;
+	width:230px;
+	/* width:16.66%; */
+	margin-right: 12px;
+	/* margin-right: 1.82979%; */
+	/* height: 390px; */
+	/* overflow: hidden; */
 	text-align: center;
 	float: left;
 }
@@ -819,9 +831,7 @@ border: 2px solid #fff;
 	color: #7cc576 !important;
 }
 
-.portfolioContainer{
-	max-width: 1500px;
-}
+
 
 
 /* Animation Timers
