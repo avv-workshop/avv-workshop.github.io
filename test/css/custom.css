@@ -111,9 +111,9 @@ li a
     padding-top: 10px;
 }
 #heading-text h3 {
-    font-size: 49px;
+    font-size: 39px;
     font-family: 'Georgia';
-    padding-top: 58px;
+    padding-top: 28px;
     text-transform: uppercase;
 }
 
@@ -266,7 +266,7 @@ Our service
 }
 .about-service h3 {
     font-family: "Coda";
-    font-size: 33px;
+    font-size: 32px;
 }
 
 .service-icon i 
@@ -816,7 +816,7 @@ form
 @media (max-width: 405px){
     #heading-text h3
     {
-        font-size: 45px;
+        font-size: 25px;
     }
 }
 @media (max-width: 350px){
