@@ -1,10 +1,3 @@
-/*
-    Theme Name: Knight
-    Theme URL: https://bootstrapmade.com/knight-free-bootstrap-theme/
-    Author: BootstrapMade
-    Author URL: https://bootstrapmade.com
-*/
-
 /* CSS Document */
 
 /* Float Elements 
@@ -136,7 +129,7 @@ p{
 	font-size:45px;
 	color: #ffffff;
 	text-transform: uppercase;
-	font-weight: 600;
+	font-weight: 550;
 	margin:0 5px 0 0;
 	padding:0 0 0 15px;
 }
@@ -513,31 +506,44 @@ border: 2px solid #fff;
 /* Team
 ---------------------------------*/
 .team-leader-block{
-	max-width:1500;
-	margin:0 auto;
+	/* margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto; */
+	/* position: relative; */
+	/* max-width:100%; */
+	/* margin:0 auto; */
+	text-align: center;
+	/* margin-left: auto;
+    margin-right: auto; */
+	display: inline-block;
 }
 .team-leader-box{
-	width:230px;
+	width:20%;
 	/* width:16.66%; */
-	margin-right: 12px;
+	/* margin-right: 0px; */
 	/* margin-right: 1.82979%; */
 	/* height: 390px; */
 	/* overflow: hidden; */
 	text-align: center;
+	margin: 0 auto;
 	float: left;
+	
 }
 .team-leader-box span{
-	margin-bottom:24px;
+	margin-bottom:12px;
+	font-size: 16px;
 	display:block;
 }
-.team-leader-box:nth-of-type(3n+0){ margin:0;}
+/* .team-leader-box:nth-of-type(3n+0){ margin:0;} */
 .team-leader{
-	width:auto;
-	height:auto;
-	position:relative;
+	/* width:auto;
+	height:auto; */
+	/* position:relative; */
 	border-radius:50%;
 	box-shadow:0px 0px 0px 7px rgba(241,241,241,0.80);
-	margin:7px 7px 25px 7px;
+	margin:20px 20px 20px 20px;
+	text-align: center;
 	
 }
 .team-leader-shadow{
