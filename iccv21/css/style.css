@@ -98,8 +98,17 @@ p{
 
 .header{
 	text-align:center;
-	background:url(../img/pw_maze_black_2X.png) left top repeat;
-	padding:40px 0;
+	background-image: url(../img/bg2.jpg);
+	background-attachment: fixed;
+	background-repeat:no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 480px;
+	width:100%;
+	padding: 20px;
+	/* background:url(../img/bg.png) left top repeat; */
+	/* padding:100px 0; */
+	/* position: fixed !important; */
 }
 .logo{
 	width:330px;
@@ -108,9 +117,9 @@ p{
 .header h1{
 	font-family: 'Montserrat',sans-serif;
 	font-size:50px;
-	font-weight:400;
-	letter-spacing: -1px;
-	margin:0 0 22px 0 ;
+	font-weight:600;
+	/* letter-spacing: -1px; */
+	margin:0 0 0px 0 ;
 	color:#fff;
 }
 
@@ -124,10 +133,10 @@ p{
 .we-create li{
 	display:inline-block;
 	font-family: 'Montserrat',sans-serif;
-	font-size:26px;
-	color: #8b7f7f;
+	font-size:45px;
+	color: #ffffff;
 	text-transform: uppercase;
-	font-weight: 400;
+	font-weight: 600;
 	margin:0 5px 0 0;
 	padding:0 0 0 15px;
 }
