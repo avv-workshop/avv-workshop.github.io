@@ -331,7 +331,7 @@ color: #fff;
 	line-height:20px;
 	color:#222222;
 	border-radius:4px;
-	text-transform:uppercase;
+	/* text-transform:uppercase; */
 	font-family: 'Montserrat', sans-serif;
 	background:#f7f7f7;
 	margin-bottom:5px;
@@ -347,7 +347,8 @@ color: #fff;
 
 .portfolioContainer{
 	margin:0 auto;
-	padding-left:15px;
+	/* text-align: center; */
+	/* padding-left:15px; */
 }
 
 .Portfolio-box{
@@ -356,7 +357,7 @@ color: #fff;
 	height:450px;
 	width:350px;
 	overflow:hidden;
-	float:left;
+	/* float:left; */
 	padding:0;
 }
 .Portfolio-box img{
@@ -819,7 +820,7 @@ border: 2px solid #fff;
 }
 
 .portfolioContainer{
-	max-width: 1140px;
+	max-width: 1500px;
 }
 
 
