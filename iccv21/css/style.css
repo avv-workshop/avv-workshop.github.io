@@ -148,7 +148,7 @@ color: #fff;
 
 .link{
 	padding:15px 35px;
-	background:#7cc576;
+	background:#000000;
 	color:#fff !important;
 	font-size:16px;
 	font-weight:400;
@@ -169,7 +169,7 @@ color: #fff;
 }
 
 .link:active, .link:focus {
-	background: #7cc576;
+	background: #000000;
 	text-decoration:none;
 	color:#fff !important;
 }
@@ -208,7 +208,7 @@ color: #fff;
 
 .main-nav li a:hover{ 
 	text-decoration:none;
-	color: #7cc576;
+	color: #000000;
 }
 
 .small-logo{ 
@@ -295,7 +295,7 @@ color: #fff;
 .Learn-More{
 	display:inline-block;
 	padding:0 5px 0 0;
-	color:#7cc576;
+	color:#000000;
 	font-size:16px;
 	text-transform:uppercase;
 	font-family: 'Montserrat', sans-serif;
@@ -643,7 +643,7 @@ border: 2px solid #fff;
 }
 
 .main-section.contact{
-	background:url(../img/bg-map.png) left 190px no-repeat;
+	background:url(../img/bg-map.png) left 0px no-repeat;
 }
 .contact-info-box{
 	font-size:15px;
@@ -747,7 +747,7 @@ border: 2px solid #fff;
 .input-btn{
 	width:175px;
 	height:50px;
-	background:#7cc576;
+	background:#000000;
 	border-radius:4px;
 	color:#ffffff;
 	font-size:14px;
@@ -774,8 +774,8 @@ border: 2px solid #fff;
 }
 
 #sendmessage {
-    color: #7cc576;
-    border:1px solid #7cc576;
+    color: #000000;
+    border:1px solid #000000;
     display:none;
     text-align:center;
     padding:15px;
@@ -805,8 +805,9 @@ border: 2px solid #fff;
 	padding:35px 0 35px;
 }
 .footer-logo{
+	text-align: center;
 	margin:15px auto 35px;
-	width: 76px;
+	width: 200px;
 }
 .copyright, .credits{
 	color:#cccccc;
