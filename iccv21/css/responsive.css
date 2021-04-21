@@ -71,7 +71,7 @@
 	.business-talking h2{ font-size:36px;}
 	.contact-info-box{ margin:0 0 12px 30px; font-size:12px;}
 	.contact-info-box span{ line-height:18px;}
-	.social-link{ margin-left:30px;} 
+	.social-link{ margin-left:30px;}
 	.form{ margin:0 30px;}
 	.copyright{ font-size:12px;}
 	.business-talking a{ padding:10px 25px; font-size:14px;}
@@ -98,8 +98,10 @@
 	.social-link{ margin-left:0px;}
 	.form{ margin:0}
 	.c-logo-part ul li{ display:block;}
-	.Portfolio-box{  max-width:300px !important; width:96.4% !important; margin:0 !important}
-	.Portfolio-box img { max-width:100%;}
-	.portfolioContainer{ width:280px !important; margin:0 auto !important } 
+	/*
+	.Portfolio-box{  max-width:300px !important; width:96.4% !important; margin:0 !important; float : left; text-align:center;}
+	.Portfolio-box img { max-width:100%; float : left; text-align: center;margin:0 auto; }
+	 */
+	/*.portfolioContainer{ width:280px !important; margin:0 auto !important } */
 	
 }

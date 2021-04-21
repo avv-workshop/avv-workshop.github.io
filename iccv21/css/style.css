@@ -185,7 +185,7 @@ color: #fff;
 }
 .main-nav{
 	text-align:center;
-	margin:10px 0 0px;
+	margin: 5px 0 0px;
 	padding:0;
 	list-style:none;
 }
@@ -348,6 +348,25 @@ color: #fff;
 	color:#fff;
 	text-decoration:none;
 }
+.portfolioContainer_l1{
+	float: left;
+	display:inline-block;
+	/* margin-left: 200px; */
+	 margin-right: auto;
+	/* padding-left:200px; */
+	text-align: center;
+	align-self: center;
+	padding: 10px;
+	width: 100%;
+}
+.portfolioContainer_new{
+	margin:0 auto;
+	/* margin-left: 200px; */
+	/* margin-right: auto; */
+	/* padding-left:200px; */
+	text-align: center;
+	width: 100%;
+}
 
 .portfolioContainer{
 	margin:0 auto;
@@ -363,15 +382,20 @@ color: #fff;
 } */
 
 .Portfolio-box{
+
+	display: inline-block;
 	text-align:center;
+	width:13%;
+	margin: 0 1%;
+	vertical-align: top /* 人名字上对齐*/
+/*	float:left;*/
+
 	/* margin-bottom:5px; */
 	/* height:450px; */
-	width:13%;
-	/* margin: 0 auto; */
 	/* overflow:hidden; */
-	float:left;
 	/* padding:10; */
 }
+/*
 .Portfolio-box img{
 	margin-bottom:5px;
 	transition:all 0.3s ease-in-out;
@@ -382,6 +406,7 @@ color: #fff;
 .Portfolio-box img:hover {
 	opacity: 0.6;
 }
+*/
 
 .Portfolio-nav li a.current{
 	background:#7cc576;

@@ -48,11 +48,13 @@
 
 <nav class="main-nav-outer" id="test"><!--main-nav-start-->
 	<div class="container">
-        <ul class="main-nav">
-        	<li><a href="#about">About</a></li>
+        <ul class="main-nav", style="font-size:20px"> <!--可以改bar的字体大小-->
+        	<li><a href="#about" >About</a></li>
             <li><a href="#speakers">Speakers</a></li>
             <li><a href="#organizers">Organizers</a></li>
             <li><a href="#client">Submission</a></li>
+
+            <li><a href="#sponsor">Sponsor</a></li>
             <!-- <li><a href="#team">Dates</a></li> -->
             <li><a href="#contact">Program</a></li>
         </ul>
@@ -65,7 +67,7 @@
 <section class="main-section paddind" id="about">
 	<div class="container">
     	<h2>About</h2>
-    	<h6></h6>
+    	<!-- <h6></h6> 这里一行太多了-->
         <!-- <P class="padding-b"> -->
             The 2nd Autonomous Vehicle Vision (AVVision) Workshop is organized
             by the <a href="https://avvision.xyz/">AVVision community</a>. This workshop aims 
@@ -83,75 +85,77 @@
 
 
 <section class="main-section paddind" id="speakers">
-	<div class="container">
-    	<h2>Speakers</h2>
-    	<h6></h6>
+	<div class="container " >
+        <h2>Speakers</h2>
+        <!-- <h6></h6> 这里一行太多了-->
 
-        <div class="portfolioContainer wow fadeInUp delay-02s">
-        
-        <div class="Portfolio-box printdesign">
-            <a href="https://thoth.inrialpes.fr/~schmid/"><img src="img/cordelia.png" alt=""></a>	
+        <div class="portfolioContainer_new wow fadeInUp delay-02s text-align:center" >
+
+            <div class="Portfolio-box printdesign" >
+                <a href="https://thoth.inrialpes.fr/~schmid/"><img src="img/cordelia.png" alt=""></a>
                 <h3>Cordelia Schmid</h3>
                 <p>INRIA</p>
-        </div>
+            </div>
 
-        <div class="Portfolio-box webdesign">
-            <a href="http://www.cs.toronto.edu/~urtasun/"><img src="img/raquel.png" alt=""></a>	
+            <div class="Portfolio-box webdesign">
+                <a href="http://www.cs.toronto.edu/~urtasun/"><img src="img/raquel.png" alt=""></a>
                 <h3>Raquel Urtasun</h3>
                 <p>University of Toronto</p>
-        </div>
-                
-         <div class="Portfolio-box branding">
-            <a href="http://www.cvlibs.net/"><img src="img/andreas.png" alt=""></a>	
+            </div>
+
+            <div class="Portfolio-box branding">
+                <a href="http://www.cvlibs.net/"><img src="img/andreas.png" alt=""></a>
                 <h3>Andreas Geiger</h3>
                 <p>University of Tübingen</p>
-        </div>
-        
-        <!-- </div> -->
+            </div>
 
-        <!-- <div class="portfolioContainer wow fadeInUp delay-02s"></div> -->
-        
-        <div class="Portfolio-box photography" >
-            <a href="https://www.yf.io/"><img src="img/fisher.png" alt=""></a>	
-                <h3>Fisher Yu</h3>
-                <p>ETH Zürich</p>
-        </div>
-                
-        <div class="Portfolio-box branding">
-            <a href="https://dvl.in.tum.de/team/lealtaixe/"><img src="img/laura.png" alt=""></a>	
+             <div class="Portfolio-box photography" >
+                 <a href="https://www.yf.io/"><img src="img/fisher.png" alt=""></a>
+                 <h3>Fisher Yu</h3>
+                 <p>ETH Zürich</p>
+             </div>
+         </div>
+    </div>
+
+
+    <div class="container">
+        <div class="portfolioContainer_new wow fadeInUp delay-02s" id="my_speakers">
+
+            <div class="Portfolio-box branding">
+                <a href="https://dvl.in.tum.de/team/lealtaixe/"><img src="img/laura.png" alt=""></a>
                 <h3>Laura Leal-Taixé</h3>
                 <p>Technical University of Munich</p>
-        </div>
-              
-        <!-- </div> -->
+            </div>
 
-        <div class="Portfolio-box photography">
-            <a href="https://droplab.engin.umich.edu/matthew-johnson-roberson"><img src="img/matthew.png" alt=""></a>	
+
+            <div class="Portfolio-box photography">
+                <a href="https://droplab.engin.umich.edu/matthew-johnson-roberson"><img src="img/matthew.png" alt=""></a>
                 <h3>Matthew Johnson-Roberson</h3>
                 <p>University of Michigan</p>
-        </div>
-                
-        <div class="Portfolio-box photography" >
-            <a href="http://carlwellington.com/"><img src="img/matthew.png" alt=""></a>	
+            </div>
+
+            <div class="Portfolio-box photography" >
+                <a href="http://carlwellington.com/"><img src="img/matthew.png" alt=""></a>
                 <h3>Carl Wellington</h3>
                 <p>Aurora</p>
-        </div> 
-        
-        
+            </div>
+
+
+        </div>
 
     </div>
 </section>
 
 
 <section class="main-section team" id="organizers">
-	<div class="container">
+    <div class="container">
         <h2>Organizers</h2>
         <h6>General Chairs</h6>
 
-        <div class="team-leader-block"> 
+        <div class="team-leader-block">
 
             <div class="team-leader-box">
-                <div class="team-leader wow fadeInDown delay-02s"> 
+                <div class="team-leader wow fadeInDown delay-02s">
                     <div class="team-leader-shadow"><a href="https://www.ruirangerfan.com/"></a></div>
                     <a><img src="img/rui_fan.png" alt=""></a>
                 </div>
@@ -160,7 +164,7 @@
             </div>
 
             <div class="team-leader-box">
-                <div class="team-leader wow fadeInDown delay-02s"> 
+                <div class="team-leader wow fadeInDown delay-02s">
                     <div class="team-leader-shadow"><a href="https://www.ruirangerfan.com/"></a></div>
                     <a><img src="img/nemanja.png" alt=""></a>
                 </div>
@@ -169,7 +173,7 @@
             </div>
 
             <div class="team-leader-box">
-                <div class="team-leader wow fadeInDown delay-02s"> 
+                <div class="team-leader wow fadeInDown delay-02s">
                     <div class="team-leader-shadow"><a href="https://www.ruirangerfan.com/"></a></div>
                     <a><img src="img/fisher.png" alt=""></a>
                 </div>
@@ -178,7 +182,7 @@
             </div>
 
             <div class="team-leader-box">
-                <div class="team-leader wow fadeInDown delay-02s"> 
+                <div class="team-leader wow fadeInDown delay-02s">
                     <div class="team-leader-shadow"><a href="https://www.ruirangerfan.com/"></a></div>
                     <a><img src="img/rowan.png" alt=""></a>
                 </div>
@@ -187,7 +191,7 @@
             </div>
 
             <div class="team-leader-box">
-                <div class="team-leader wow fadeInDown delay-02s"> 
+                <div class="team-leader wow fadeInDown delay-02s">
                     <div class="team-leader-shadow"><a href="https://www.ruirangerfan.com/"></a></div>
                     <a><img src="img/ioannis_pitas.png" alt=""></a>
                 </div>
@@ -198,11 +202,130 @@
         </div>
 
         <h6>Program Committee</h6>
-        Walterio Mayol-Cuevas, Amazon
-        <br>
-        Qijun Chen, Tongji University
-        
+        <div style="text-align: center">
+            Walterio Mayol-Cuevas, Amazon
+            <br>
+            Qijun Chen, Tongji University
+        </div>
 
+
+
+    </div>
+</section>
+
+<section class="main-section team" id="sponsor">
+
+    <div class="container">
+        <h2>Sponsor</h2>
+        <h6>6666!</h6>
+
+        <div style="text-align: center">
+            George Washington
+            <br>John Adams
+            <br>George Washington
+            <br>John Adams
+            <br>Thomas Jefferson
+            <br>James Madison
+            <br>James Monroe
+            <br>John Adams
+            <br>Andrew Jackson
+            <br>Martin Van Buren
+            <br>Willian Henry Harrison
+            <br>John Tyler
+            <br>James Polk
+            <br>Zachary Taylor
+            <br>Millard Fillmore
+            <br>Franklin Pierce
+            <br>James Buchanan
+            <br>Abraham Lincoln
+            <br>Andrew Johnson
+            <br>Ulysses S. Grant
+            <br>Rutherford B. Hayes
+            <br>James Garfield
+            <br>Chester Arthur
+            <br>Grover Cleveland
+            <br>Benjamin Harrison
+            <br>Grover Cleveland
+            <br>William McKinley
+            <br>Theodore Roosevelt
+            <br>William H. Taft
+            <br>Woodrow Wilson
+            <br>Warren Harding
+            <br>Calvin Coolidge
+            <br>Herbert Hoover
+            <br>Franklin D. Roosevelt
+            <br>Harry Truman
+            <br>Dwight Eisenhower
+            <br>John F. Kennedy
+            <br>Lyndon Johnson
+            <br>Richard Nixon
+            <br>Gerald Ford
+            <br>Jimmy Carter
+            <br>Ronald Reagan
+        </div>
+
+    </div>
+
+</section>
+
+<section class="main-section team">
+
+</section>
+
+<section class="main-section paddind" id="about">
+    <div class="container">
+        <h2>Submission</h2>
+        <h6>Call for papers</h6>
+        With a number of breakthroughs in autonomous system technology
+        over the past decade, the race to commercialize self-driving
+        cars has become fiercer than ever.
+        The integration of advanced sensing, computer vision,
+        signal/image processing, and machine/deep learning into autonomous
+        vehicles enables them to perceive the environment
+        intelligently and navigate safely. Autonomous driving is
+        required to ensure safe, reliable, and efficient automated
+        mobility in complex uncontrolled real-world environments.
+        Various applications range from automated transportation
+        and farming to public safety and environment exploration.
+        Visual perception is a critical component of autonomous driving.
+        Enabling technologies include:
+        a) affordable sensors that can acquire useful data under
+        varying environmental conditions, b) reliable simultaneous
+        localization and mapping, c) machine learning that can
+        effectively handle varying real-world conditions and unforeseen
+        events, as well as “machine-learning friendly” signal processing
+        to enable more effective classification and decision making,
+        d) hardware and software co-design for efficient real-time
+        performance, e) resilient and robust platforms that can withstand
+        adversarial attacks and failures, and f) end-to-end system
+        integration of sensing, computer vision, signal/image
+        processing and machine/deep learning. The 2nd AVVision
+        workshop will cover all these topics. Research papers are
+        solicited in, but not limited to, the following topics:
+        <!-- <p> -->
+        <ul>
+
+            <li> 3D road/environment reconstruction and understanding; </li>
+            <li> Mapping and localization for autonomous cars; </li>
+            <li> Semantic/instance driving scene segmentation and semantic mapping; </li>
+            <li> Self-supervised/unsupervised visual environment perception; </li>
+            <li> Car/pedestrian/object/obstacle detection/tracking and 3D localization; </li>
+            <li> Car/license plate/road sign detection and recognition; </li>
+            <li> Driver status monitoring and human-car interfaces; </li>
+            <li> Deep/machine learning and image analysis for car perception; </li>
+            <li> Adversarial domain adaptation for autonomous driving; </li>
+            <li> On-board embedded visual perception systems; </li>
+            <li> Bio-inspired vision sensing for car perception; </li>
+            <li> Real-time deep learning inference. </li>
+        </ul>
+        <h6 style="margin-bottom: 20px; margin-top: 50px" > Submission Guidelines</h6>
+        Authors are encouraged to submit high-quality, original
+        (i.e., not been previously published or accepted for publication
+        in substantially similar form in any peer-reviewed venue including journal,
+        conference or workshop) research.
+
+        The paper template is identical to the ICCV 2021 main conference.
+        The author toolkit (latex only) is available both on Overleaf and in Github.
 
     </div>
 </section>
@@ -210,97 +333,38 @@
 
 
 
-<section class="main-section paddind" id="about">
-	<div class="container">
-    	<h2>Submission</h2>
-    	<h6>Call for papers</h6>
-        With a number of breakthroughs in autonomous system technology 
-        over the past decade, the race to commercialize self-driving 
-        cars has become fiercer than ever. 
-        The integration of advanced sensing, computer vision, 
-        signal/image processing, and machine/deep learning into autonomous 
-        vehicles enables them to perceive the environment 
-        intelligently and navigate safely. Autonomous driving is
-         required to ensure safe, reliable, and efficient automated 
-         mobility in complex uncontrolled real-world environments. 
-         Various applications range from automated transportation 
-         and farming to public safety and environment exploration. 
-         Visual perception is a critical component of autonomous driving. 
-         Enabling technologies include: 
-         a) affordable sensors that can acquire useful data under 
-         varying environmental conditions, b) reliable simultaneous 
-         localization and mapping, c) machine learning that can 
-         effectively handle varying real-world conditions and unforeseen 
-         events, as well as “machine-learning friendly” signal processing 
-         to enable more effective classification and decision making, 
-         d) hardware and software co-design for efficient real-time 
-         performance, e) resilient and robust platforms that can withstand 
-         adversarial attacks and failures, and f) end-to-end system 
-         integration of sensing, computer vision, signal/image 
-         processing and machine/deep learning. The 2nd AVVision 
-         workshop will cover all these topics. Research papers are 
-         solicited in, but not limited to, the following topics:
-<!-- <p> -->
-• 3D road/environment reconstruction and understanding;
-• Mapping and localization for autonomous cars;
-• Semantic/instance driving scene segmentation and semantic mapping;
-• Self-supervised/unsupervised visual environment perception;
-• Car/pedestrian/object/obstacle detection/tracking and 3D localization;
-• Car/license plate/road sign detection and recognition;
-• Driver status monitoring and human-car interfaces;
-• Deep/machine learning and image analysis for car perception;
-• Adversarial domain adaptation for autonomous driving;
-• On-board embedded visual perception systems;
-• Bio-inspired vision sensing for car perception;
-• Real-time deep learning inference.
-<h6>Submission Guidelines</h6>
 
-Authors are encouraged to submit high-quality, original 
-(i.e., not been previously published or accepted for publication 
-in substantially similar form in any peer-reviewed venue including journal, 
-conference or workshop) research.
-
-The paper template is identical to the ICCV 2021 main conference. 
-The author toolkit (latex only) is available both on Overleaf and in Github. 
-
-        </div>
-    </section>
-
-
-
-
-
-<div class="container">
+<div class="container" style="margin-top: 150px">
     <h2>Contact</h2>
-<section class="main-section contact" id="contact">
+    <section class="main-section contact" id="contact">
 
         <div class="row">
-        	<div class="col-lg-6 col-sm-7 wow fadeInLeft">
+            <div class="col-lg-6 col-sm-7 wow fadeInLeft">
 
 
                 <div class="contact-info-box phone clearfix">
-                	<h3><i class="fa-phone"></i>Phone:</h3>
-                	<span>1-619-630-8882</span>
+                    <h3><i class="fa-phone"></i>Phone:</h3>
+                    <span>1-619-630-8882</span>
                 </div>
                 <div class="contact-info-box email clearfix">
-                	<h3><i class="fa-envelope"></i>email:</h3>
-                	<span>avvision@mias.group</span>
+                    <h3><i class="fa-envelope"></i>email:</h3>
+                    <span>avvision@mias.group</span>
                 </div>
-            	<!-- <div class="contact-info-box hours clearfix">
-                	<h3><i class="fa-clock-o"></i>Hours:</h3>
-                	<span><strong>Monday - Thursday:</strong> 11am - 6pm<br><strong>Friday:</strong> People work on Fridays now?<br><strong>Saturday - Sunday:</strong> Best not to ask.</span>
+                <!-- <div class="contact-info-box hours clearfix">
+                    <h3><i class="fa-clock-o"></i>Hours:</h3>
+                    <span><strong>Monday - Thursday:</strong> 11am - 6pm<br><strong>Friday:</strong> People work on Fridays now?<br><strong>Saturday - Sunday:</strong> Best not to ask.</span>
                 </div> -->
                 <ul class="social-link">
-                	<li class="twitter"><a href="https://twitter.com/mias_avvision"><i class="fa-twitter"></i></a></li>
+                    <li class="twitter"><a href="https://twitter.com/mias_avvision"><i class="fa-twitter"></i></a></li>
                     <li class="facebook"><a href="https://www.facebook.com/AVVision-102524081821979/"><i class="fa-facebook"></i></a></li>
                     <li class="pinterest"><a href="https://www.youtube.com/channel/UCL0Uxgn1f_3Dup31dtWe-QQ"><i class="fa-youtube"></i></a></li>
                     <!-- <li class="gplus"><a href="#"><i class="fa-google-plus"></i></a></li>
                     <li class="dribbble"><a href="#"><i class="fa-dribbble"></i></a></li> -->
                 </ul>
             </div>
-        	<div class="col-lg-6 col-sm-5 wow fadeInUp delay-05s">
-            	<div class="form">
-                	
+            <div class="col-lg-6 col-sm-5 wow fadeInUp delay-05s">
+                <div class="form">
+
                     <div id="sendmessage">Your message has been sent. Thank you!</div>
                     <div id="errormessage"></div>
                     <form action="" method="post" role="form" class="contactForm">
@@ -320,13 +384,13 @@ The author toolkit (latex only) is available both on Overleaf and in Github.
                             <textarea class="form-control input-text text-area" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
                             <div class="validation"></div>
                         </div>
-                        
+
                         <div class="text-center"><button type="submit" class="input-btn">Send Message</button></div>
                     </form>
-                </div>	
+                </div>
             </div>
         </div>
-</section>
+    </section>
 </div>
 
 
@@ -346,91 +410,96 @@ The author toolkit (latex only) is available both on Overleaf and in Github.
         $('#test').scrollToFixed();
         $('.res-nav_click').click(function(){
             $('.main-nav').slideToggle();
-            return false    
-            
+            return false
+
         });
-        
+
     });
 </script>
 
-  <script>
+<script>
     wow = new WOW(
-      {
-        animateClass: 'animated',
-        offset:       100
-      }
+        {
+            animateClass: 'animated',
+            offset:       100
+        }
     );
     wow.init();
-  </script>
+</script>
 
 
 <script type="text/javascript">
-	$(window).load(function(){
-		
-		$('.main-nav li a, .servicelink').bind('click',function(event){
-			var $anchor = $(this);
-			
-			$('html, body').stop().animate({
-				scrollTop: $($anchor.attr('href')).offset().top - 102
-			}, 1500,'easeInOutExpo');
-			/*
-			if you don't want to use the easing effects:
-			$('html, body').stop().animate({
-				scrollTop: $($anchor.attr('href')).offset().top
-			}, 1000);
-			*/
-      if ($(window).width() < 768 ) { 
-        $('.main-nav').hide(); 
-      }
-			event.preventDefault();
-		});
-	})
+    $(window).load(function(){
+
+        $('.main-nav li a, .servicelink').bind('click',function(event){
+            var $anchor = $(this);
+
+            $('html, body').stop().animate({
+                scrollTop: $($anchor.attr('href')).offset().top - 102
+            }, 1500,'easeInOutExpo');
+            /*
+            if you don't want to use the easing effects:
+            $('html, body').stop().animate({
+                scrollTop: $($anchor.attr('href')).offset().top
+            }, 1000);
+            */
+            if ($(window).width() < 768 ) {
+                $('.main-nav').hide();
+            }
+            event.preventDefault();
+        });
+    })
 </script>
 
 <script type="text/javascript">
 
-$(window).load(function(){
-  
-  
-  var $container = $('.portfolioContainer'),
-      $body = $('body'),
-      colW = 375,
-      columns = null;
+    $(window).load(function(){
 
-  
-  $container.isotope({
-    // disable window resizing
-    resizable: true,
-    masonry: {
-      columnWidth: colW
-    }
-  });
-  
-  $(window).smartresize(function(){
-    // check if columns has changed
-    var currentColumns = Math.floor( ( $body.width() -30 ) / colW );
-    if ( currentColumns !== columns ) {
-      // set new column count
-      columns = currentColumns;
-      // apply width to container manually, then trigger relayout
-      $container.width( columns * colW )
-        .isotope('reLayout');
-    }
-    
-  }).smartresize(); // trigger resize to set container width
-  $('.portfolioFilter a').click(function(){
-        $('.portfolioFilter .current').removeClass('current');
-        $(this).addClass('current');
- 
-        var selector = $(this).attr('data-filter');
+
+        var $container = $('.portfolioContainer'),
+            $body = $('body'),
+            colW = 375,
+            columns = null;
+
+        var a ;
+        var speakers;
+        a= document.getElementById('my_speakers');
+        speakers = a.getElementsByTagName('div').length;
+
         $container.isotope({
-			
-            filter: selector,
-         });
-         return false;
+            // disable window resizing
+            resizable: true,
+            masonry: {
+                columnWidth: colW
+            }
+        });
+
+        $(window).smartresize(function(){
+            // check if columns has changed
+            var currentColumns = Math.floor( ( $body.width() -30 ) / colW );
+
+            if ( currentColumns !== columns ) {
+                // set new column count
+                columns = currentColumns;
+                // apply width to container manually, then trigger relayout
+                $container.width( columns * colW )
+                    .isotope('reLayout');
+            }
+
+        }).smartresize(); // trigger resize to set container width
+        $('.portfolioFilter a').click(function(){
+            $('.portfolioFilter .current').removeClass('current');
+            $(this).addClass('current');
+
+            var selector = $(this).attr('data-filter');
+            $container.isotope({
+
+                filter: selector,
+            });
+            return false;
+        });
+
     });
-  
-});
 
 </script>
 
