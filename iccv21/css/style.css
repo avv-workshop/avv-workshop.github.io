@@ -56,11 +56,11 @@ body {
 }
 h2{
 	font-size:34px;
-	color:#222222;
+	color:#111111;
 	font-family: 'Montserrat', sans-serif;
 	font-weight:700;
 	letter-spacing: -1px;
-	margin:0 0 15px 0;
+	margin:0px 0px 25px 0px;
 	text-align:center;
 	/* text-transform:uppercase; */
 }
@@ -68,7 +68,7 @@ h3{
 	font-family: 'Montserrat', sans-serif;
 	color:#222222;
 	font-size:16px;
-	margin:0 0 5px 0;
+	margin:20px 0 5px 0;
 	/* text-transform:uppercase; */
 	font-weight:400;
 }
@@ -78,7 +78,7 @@ h6{
 	font-family: 'Open Sans', sans-serif;
 	font-weight:400;
 	text-align:center;
-	margin:0 0 60px 0;
+	margin:0 0 35px 0;
 }
 p{
 	font-size:16px;
@@ -180,7 +180,7 @@ color: #fff;
 	overflow: scroll;
 	padding:0px;
 	border-bottom:1px solid #dddddd;
-	box-shadow:0 4px 5px -3px #ececec;
+	/* box-shadow:0 4px 5px -3px #ececec; */
 	position:relative;
 	background:#fff;
 }
@@ -207,6 +207,7 @@ color: #fff;
     text-transform:uppercase;
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
+	font-size: 15px;
     line-height:20px;
     margin:17px 32px;
     transition:all 0.3s ease-in-out;
@@ -393,7 +394,7 @@ color: #fff;
 
 	display: inline-block;
 	text-align:center;
-	width:15%;
+	width:20%;
 	margin: 0 1%;
 	vertical-align: top /* 人名字上对齐*/
 /*	float:left;*/
@@ -529,7 +530,7 @@ border: 2px solid #fff;
 	margin: 0 20px;
 }
 .main-section.team{
-	padding:85px 0;
+	padding:50px 0;
 }
 .main-section.team h6{
 	margin-bottom:40px;
@@ -541,7 +542,7 @@ border: 2px solid #fff;
     height: 100px;
     */
     text-align: center;
-	margin: 20px 20px;
+	margin: 00px 50px;
 	display: inline-block;
 }
 .pc-member.name{
@@ -575,10 +576,10 @@ border: 2px solid #fff;
 
 	margin: 0 auto;
 	vertical-align:middle;
-	horiz-align: center;
+	/* horiz-align: center; */
 	text-align: center;
 	align-items: center;
-	child-align: middle;
+	/* child-align: middle; */
 
 
 	display: inline-block;
@@ -703,7 +704,7 @@ border: 2px solid #fff;
 	font-family: 'Montserrat', sans-serif;
 	font-weight:700;
 	padding:0;
-	margin:20px 0 70px;
+	/* margin:10px 0 70px; */
 	/* text-transform:uppercase; */
 	font-size:42px;
 	color:#fff;
