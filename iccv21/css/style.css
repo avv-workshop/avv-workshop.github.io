@@ -535,6 +535,29 @@ border: 2px solid #fff;
 	margin-bottom:40px;
 }
 
+.pc-member{
+	/*
+	width: 250px;
+    height: 100px;
+    */
+    text-align: center;
+	margin: 20px 20px;
+	display: inline-block;
+}
+.pc-member.name{
+	font-family: "Times New Roman";
+}
+
+.pc-member.company{
+	font-family: Georgia;
+    margin: 0 auto;
+	float: left;
+	text-align: left;
+	display: block;
+	display: inline;
+
+}
+
 
 /* Team
 ---------------------------------*/
