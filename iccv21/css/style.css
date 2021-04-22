@@ -178,7 +178,6 @@ color: #fff;
 /* Navigation
 ---------------------------------*/
 .main-nav-outer{
-	text-align:center;
 	overflow: scroll;
 	padding:0px;
 	border-bottom:1px solid #dddddd;
@@ -207,7 +206,6 @@ color: #fff;
 }
 .main-nav li a{
     display:inline-block;
-	text-align:center;
     color:#222222;
     text-transform:uppercase;
     font-family: 'Montserrat', sans-serif;
