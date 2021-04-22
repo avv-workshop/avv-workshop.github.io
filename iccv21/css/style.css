@@ -52,7 +52,8 @@ body {
 	font-size:20px;
 	font-weight:normal;
 	color:#888888;
-	margin:0;
+	margin:0px 0px 0px 0px;
+	height: 100%;
 }
 h2{
 	font-size:34px;
@@ -177,6 +178,7 @@ color: #fff;
 /* Navigation
 ---------------------------------*/
 .main-nav-outer{
+	text-align:center;
 	overflow: scroll;
 	padding:0px;
 	border-bottom:1px solid #dddddd;
@@ -185,6 +187,7 @@ color: #fff;
 	background:#fff;
 }
 .main-nav{
+	text-align:center;
     /*
 	overflow: hidden;
 	text-align:center;
@@ -197,12 +200,14 @@ color: #fff;
 
 }
 .main-nav li{
+	text-align:center;
 	overflow: hidden;
 	display:inline;
 	margin:0 1px;
 }
 .main-nav li a{
     display:inline-block;
+	text-align:center;
     color:#222222;
     text-transform:uppercase;
     font-family: 'Montserrat', sans-serif;
@@ -722,15 +727,15 @@ border: 2px solid #fff;
 }
 .contact-info-box{
 	font-size:15px;
-	margin:0 0 14px 68px;
+	/* margin:0 0 0px 68px; */
 	padding-left:0;
 }
 .contact-info-box h3{
 	font-size: 15px;
 	font-weight:400;
 	float:left;
-	width:102px;
-	margin-right:12px;
+	/* width:402px; */
+	/* margin-right:12px; */
 	line-height:28px;
 }
 .contact-info-box h3 i{
@@ -739,7 +744,7 @@ border: 2px solid #fff;
 	color:#222222;
 	font-family: 'FontAwesome';
 	font-weight:normal;
-	margin-right:7px;
+	margin-right:12px;
 }
 .contact-info-box span{
 	line-height:28px;
