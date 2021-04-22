@@ -202,7 +202,6 @@ color: #fff;
 	margin:0 1px;
 }
 .main-nav li a{
-    overflow: scroll;
     display:inline-block;
     color:#222222;
     text-transform:uppercase;
@@ -394,11 +393,10 @@ color: #fff;
 
 	display: inline-block;
 	text-align:center;
-	width:13%;
+	width:15%;
 	margin: 0 1%;
 	vertical-align: top /* 人名字上对齐*/
 /*	float:left;*/
-
 	/* margin-bottom:5px; */
 	/* height:450px; */
 	/* overflow:hidden; */
