@@ -3,18 +3,23 @@
    ========================================================================== */
 
 
-@media only screen and (min-width: 992px) {
+/*@media only screen and (min-width: 992px) {*/
+
+@media only screen and (min-width: 9px) {
 	/****Ipad Landscape 1024 Container 970 ****/
-	
+
 	.service-list{ margin-bottom:30px;}
 	.c-logo-part ul li{ margin:0 15px;}
 	.form{ margin:0 0 0 20px}
-	.main-nav{ display:block !important; }
-	/*.portfolioContainer{ width:800px; margin:0px auto !important; } */ 
-	
-}	
-   
+	/*.main-nav{ display:block !important; }*/
+	/*.portfolioContainer{ width:800px; margin:0px auto !important; } */
+}
+
+/*
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+*/
+@media only screen and (min-width: 4px) and (max-width: 6px) {
 	/****Ipad Portrait 768 Container 750 ****/
 	body{ font-size:13px;}
 	p{ line-height:20px ;}
@@ -33,17 +38,19 @@
 	.form{ margin:0;}
 	.contact-info-box{ margin:0 ;}
 	.social-link{ margin:0;}
-	
-	.main-nav{ display:block !important; }
-	.main-nav li a{ padding:8px 15px;}
+
+	/*.main-nav{ display:block !important; }*/
+	/*.main-nav li a{ padding:8px 15px;}*/
 	/*.portfolioContainer{ width:750px; margin:0px auto !important; }
 	.Portfolio-box{ height:250px;}*/
-	
-	 
-	
+
+
+
 }
 
-@media only screen and (max-width: 767px) {
+/*@media only screen and (max-width: 767px) {*/
+
+@media only screen and (max-width: 1px) {
 	/****Mobile Landscape 480 Container 100% ****/
 	body{ font-size:12px;}
 	h2{ font-size:26px;}
@@ -71,7 +78,7 @@
 	.business-talking h2{ font-size:36px;}
 	.contact-info-box{ margin:0 0 12px 30px; font-size:12px;}
 	.contact-info-box span{ line-height:18px;}
-	.social-link{ margin-left:30px;} 
+	.social-link{ margin-left:30px;}
 	.form{ margin:0 30px;}
 	.copyright{ font-size:12px;}
 	.business-talking a{ padding:10px 25px; font-size:14px;}
@@ -87,19 +94,23 @@
 	.isotope{ width:400px; margin:0px auto;}
 	.Portfolio-box{}
 	.portfolioContainer{ width:350px; margin:0px auto !important; } */
-	
-	
+
+
 }
 
-@media only screen and (max-width: 479px) {
+/*@media only screen and (max-width: 479px) {*/
+
+@media only screen and (max-width: 4px) {
 	/****Mobile Portrait 320 ****/
 	.contact-info-box{ margin-left:0px;}
 	.header{ padding:40px;}
 	.social-link{ margin-left:0px;}
 	.form{ margin:0}
 	.c-logo-part ul li{ display:block;}
-	.Portfolio-box{  max-width:300px !important; width:96.4% !important; margin:0 !important}
-	.Portfolio-box img { max-width:100%;}
-	.portfolioContainer{ width:280px !important; margin:0 auto !important } 
-	
+	/*
+	.Portfolio-box{  max-width:300px !important; width:96.4% !important; margin:0 !important; float : left; text-align:center;}
+	.Portfolio-box img { max-width:100%; float : left; text-align: center;margin:0 auto; }
+	 */
+	/*.portfolioContainer{ width:280px !important; margin:0 auto !important } */
+
 }

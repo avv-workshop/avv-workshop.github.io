@@ -16,6 +16,13 @@
   height: 0;
 }
 
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	/* width: 80%; */
+  }
+
 .clearfix:before,
 .clearfix:after {
   content: '\0020';
@@ -52,15 +59,16 @@ body {
 	font-size:20px;
 	font-weight:normal;
 	color:#888888;
-	margin:0;
+	margin:0px 0px 0px 0px;
+	height: 100%;
 }
 h2{
 	font-size:34px;
-	color:#222222;
+	color:#111111;
 	font-family: 'Montserrat', sans-serif;
 	font-weight:700;
 	letter-spacing: -1px;
-	margin:0 0 15px 0;
+	margin:0px 0px 25px 0px;
 	text-align:center;
 	/* text-transform:uppercase; */
 }
@@ -68,17 +76,40 @@ h3{
 	font-family: 'Montserrat', sans-serif;
 	color:#222222;
 	font-size:16px;
-	margin:0 0 5px 0;
+	margin:20px 0 5px 0;
 	/* text-transform:uppercase; */
-	font-weight:400;
+	font-weight:550;
 }
+
+h4{
+	font-family: 'Montserrat', sans-serif;
+	color:#4b4a4a;
+	font-size:16px;
+	/* margin:20px 0 5px 0; */
+	/* text-transform:uppercase; */
+	font-weight:550;
+}
+
+h5{
+	/* display: inline-block; */
+	font-family: 'Montserrat', sans-serif;
+	color:#4b4a4a;
+	font-size:16px;
+	/* width:160px; */
+	/* margin:20px 0 5px 0; */
+	/* text-transform:uppercase; */
+	font-weight:450;
+}
+
+
+
 h6{
 	font-size:26px;
 	color:#888888;
 	font-family: 'Open Sans', sans-serif;
 	font-weight:400;
 	text-align:center;
-	margin:0 0 60px 0;
+	margin:0 0 35px 0;
 }
 p{
 	font-size:16px;
@@ -177,33 +208,44 @@ color: #fff;
 /* Navigation
 ---------------------------------*/
 .main-nav-outer{
+	overflow: scroll;
 	padding:0px;
 	border-bottom:1px solid #dddddd;
-	box-shadow:0 4px 5px -3px #ececec;
+	/* box-shadow:0 4px 5px -3px #ececec; */
 	position:relative;
 	background:#fff;
 }
 .main-nav{
 	text-align:center;
-	margin:10px 0 0px;
+    /*
+	overflow: hidden;
+	text-align:center;
+	margin: 5px 0 0px;
 	padding:0;
 	list-style:none;
+	*/
+    display: inline-block;
+	white-space: nowrap; /*段落文本不换行*/
+
 }
 .main-nav li{
+	text-align:center;
+	overflow: hidden;
 	display:inline;
 	margin:0 1px;
 }
 .main-nav li a{
-	display:inline-block;
-	color:#222222;
-	text-transform:uppercase;
-	font-family: 'Montserrat', sans-serif;
-	text-decoration: none;
-	line-height:20px;
-	margin:17px 32px;
-	transition:all 0.3s ease-in-out;
-	-moz-transition:all 0.3s ease-in-out;
-	-webkit-transition:all 0.3s ease-in-out;
+    display:inline-block;
+    color:#222222;
+    text-transform:uppercase;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+	font-size: 15px;
+    line-height:20px;
+    margin:17px 32px;
+    transition:all 0.3s ease-in-out;
+    -moz-transition:all 0.3s ease-in-out;
+    -webkit-transition:all 0.3s ease-in-out;
 }
 
 .main-nav li a:hover{ 
@@ -348,6 +390,25 @@ color: #fff;
 	color:#fff;
 	text-decoration:none;
 }
+.portfolioContainer_l1{
+	float: left;
+	display:inline-block;
+	/* margin-left: 200px; */
+	 margin-right: auto;
+	/* padding-left:200px; */
+	text-align: center;
+	align-self: center;
+	padding: 10px;
+	width: 100%;
+}
+.portfolioContainer_new{
+	margin:0 auto;
+	/* margin-left: 200px; */
+	/* margin-right: auto; */
+	/* padding-left:200px; */
+	text-align: center;
+	width: 100%;
+}
 
 .portfolioContainer{
 	margin:0 auto;
@@ -363,15 +424,19 @@ color: #fff;
 } */
 
 .Portfolio-box{
+
+	display: inline-block;
 	text-align:center;
+	width:20%;
+	margin: 0 1%;
+	vertical-align: top /* 人名字上对齐*/
+/*	float:left;*/
 	/* margin-bottom:5px; */
 	/* height:450px; */
-	width:13%;
-	/* margin: 0 auto; */
 	/* overflow:hidden; */
-	float:left;
 	/* padding:10; */
 }
+/*
 .Portfolio-box img{
 	margin-bottom:5px;
 	transition:all 0.3s ease-in-out;
@@ -382,6 +447,7 @@ color: #fff;
 .Portfolio-box img:hover {
 	opacity: 0.6;
 }
+*/
 
 .Portfolio-nav li a.current{
 	background:#7cc576;
@@ -497,10 +563,33 @@ border: 2px solid #fff;
 	margin: 0 20px;
 }
 .main-section.team{
-	padding:85px 0;
+	padding:50px 0;
 }
 .main-section.team h6{
 	margin-bottom:40px;
+}
+
+.pc-member{
+	/*
+	width: 250px;
+    height: 100px;
+    */
+    text-align: center;
+	margin: 00px 50px;
+	display: inline-block;
+}
+.pc-member.name{
+	font-family: "Times New Roman";
+}
+
+.pc-member.company{
+	font-family: Georgia;
+    margin: 0 auto;
+	float: left;
+	text-align: left;
+	display: block;
+	display: inline;
+
 }
 
 
@@ -514,21 +603,38 @@ border: 2px solid #fff;
 	/* position: relative; */
 	/* max-width:100%; */
 	/* margin:0 auto; */
-	text-align: center;
-	/* margin-left: auto;
+/* margin-left: auto;
     margin-right: auto; */
+
+
+	margin: 0 auto;
+	vertical-align:middle;
+	/* horiz-align: center; */
+	text-align: center;
+	align-items: center;
+	/* child-align: middle; */
+
+
 	display: inline-block;
+
 }
 .team-leader-box{
-	width:20%;
 	/* width:16.66%; */
 	/* margin-right: 0px; */
 	/* margin-right: 1.82979%; */
 	/* height: 390px; */
 	/* overflow: hidden; */
+
+	width:25%;
+    display: inline;
+
 	text-align: center;
-	margin: 0 auto;
 	float: left;
+    /*
+	margin-left: 0;
+	margin-right: 0;
+
+     */
 	
 }
 .team-leader-box span{
@@ -541,6 +647,9 @@ border: 2px solid #fff;
 	/* width:auto;
 	height:auto; */
 	/* position:relative; */
+
+	width:75%;
+	height:75%;
 	border-radius:50%;
 	box-shadow:0px 0px 0px 7px rgba(241,241,241,0.80);
 	margin:20px 20px 20px 20px;
@@ -551,12 +660,11 @@ border: 2px solid #fff;
 	transition:all 0.3s ease-in-out;
 	-moz-transition:all 0.3s ease-in-out;
 	-webkit-transition:all 0.3s ease-in-out;
-	border-radius:50%;
 	position:absolute;
 	width:100%;
 	height:100%;
 	z-index:10;
-	border-radius:50%;
+	border-radius:50% / 50%;
 }
 .team-leader-shadow a{
 	display:block;
@@ -629,7 +737,7 @@ border: 2px solid #fff;
 	font-family: 'Montserrat', sans-serif;
 	font-weight:700;
 	padding:0;
-	margin:20px 0 70px;
+	/* margin:10px 0 70px; */
 	/* text-transform:uppercase; */
 	font-size:42px;
 	color:#fff;
@@ -647,15 +755,15 @@ border: 2px solid #fff;
 }
 .contact-info-box{
 	font-size:15px;
-	margin:0 0 14px 68px;
+	/* margin:0 0 0px 68px; */
 	padding-left:0;
 }
 .contact-info-box h3{
 	font-size: 15px;
 	font-weight:400;
 	float:left;
-	width:102px;
-	margin-right:12px;
+	/* width:402px; */
+	/* margin-right:12px; */
 	line-height:28px;
 }
 .contact-info-box h3 i{
@@ -664,7 +772,7 @@ border: 2px solid #fff;
 	color:#222222;
 	font-family: 'FontAwesome';
 	font-weight:normal;
-	margin-right:7px;
+	margin-right:12px;
 }
 .contact-info-box span{
 	line-height:28px;
@@ -673,7 +781,7 @@ border: 2px solid #fff;
 }
 .social-link{
 	padding:35px 0;
-	margin:0 0 0 68px;
+	margin:0 0 0 0px;
 	display:block;
 	overflow:hidden;
 	list-style:none;
