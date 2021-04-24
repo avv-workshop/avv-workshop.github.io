@@ -112,13 +112,13 @@ p{
 .header{
 	text-align:center;
 	background-image: url(../img/bg2.jpg);
-	background-attachment: fixed;
+	background-attachment: relative;
 	background-repeat:no-repeat;
 	background-position: center;
 	background-size: cover;
-	height: 480px;
+	height: 460px;
 	width:100%;
-	padding: 20px;
+	padding: 100px;
 	/* background:url(../img/bg.png) left top repeat; */
 	/* padding:100px 0; */
 	/* position: fixed !important; */
@@ -376,7 +376,7 @@ color: #fff;
 	text-decoration:none;
 }
 .portfolioContainer_l1{
-	float: left;
+	/* float: left; */
 	display:inline-block;
 	/* margin-left: 200px; */
 	 margin-right: auto;
@@ -554,13 +554,22 @@ border: 2px solid #fff;
 	margin-bottom:40px;
 }
 
+
+.pc-member
+{
+    text-align: center;
+	/* margin: 00px 10px;
+	display: inline-block; */
+}
+
+
 .pc-member{
 	/*
 	width: 250px;
     height: 100px;
     */
     text-align: center;
-	margin: 00px 45px;
+	margin: 00px 10px;
 	display: inline-block;
 }
 /* .pc-member.name{
