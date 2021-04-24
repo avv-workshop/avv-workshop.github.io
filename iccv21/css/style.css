@@ -197,7 +197,7 @@ color: #fff;
 /* Navigation
 ---------------------------------*/
 .main-nav-outer{
-	overflow: scroll;
+	/* overflow: scroll; */
 	padding:0px;
 	border-bottom:1px solid #dddddd;
 	/* box-shadow:0 4px 5px -3px #ececec; */
