@@ -208,7 +208,9 @@ color: #fff;
 .main-nav{
 	text-align:center;
     display: inline-block;
-	white-space: nowrap; 
+	white-space: nowrap;
+	font-size: 100%; 
+	/* margin-left: auto; */
 	/*段落文本不换行*/
 
 }
@@ -216,19 +218,26 @@ color: #fff;
 	text-align:center;
 	overflow: hidden;
 	display:inline;
+	/* margin-inline-start: 5%; */
+	/* font-size: 90%; */
+	/* margin: 1%  1%  0.5%  0%; */
 	/* margin:0 1px; */
 }
 .main-nav li a{
 	text-align: center;
     display:inline-block;
-    color:#222222;
-    text-transform:uppercase;
+    color:#333333;
+	font-weight: 400;
+    /* text-transform:uppercase; */
     font-family: 'Montserrat', sans-serif;
-    text-decoration: none;
-	font-size: 15px;
-    /* line-height:20px; */
-    margin-left:auto;
-	margin-right:auto;
+    /* text-decoration: none; */
+	/* font-size: 90%; */
+	/* margin: 1%  10%  0.5%  0%; */
+	/* margin-left: auto;
+	margin-right: auto; */
+    /* line-height:100%; */
+    /* margin-left:auto;
+	margin-right:auto; */
     transition:all 0.3s ease-in-out;
     -moz-transition:all 0.3s ease-in-out;
     -webkit-transition:all 0.3s ease-in-out;
