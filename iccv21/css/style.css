@@ -810,9 +810,9 @@ border: 2px solid #fff;
 	background: #ea4c89;
 }
 
-.form{
+/* .form{
 	margin:0 66px 0 30px;
-}
+} */
 .input-text{
 	padding:15px 16px;
 	border:1px solid #ccc;
@@ -898,7 +898,7 @@ border: 2px solid #fff;
 ---------------------------------*/
 
 .footer{
-	background:url(../img/pw_maze_black_2X.png) left top repeat;
+	background:url(../img/pw_maze_black_2x.png) left top repeat;
 	padding:35px 0 35px;
 }
 .footer-logo{

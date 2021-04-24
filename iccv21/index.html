@@ -32,14 +32,17 @@
     body{transform: scale(1);}
 
     span {
-    /* text-align: left; */
     color: #888888;
-    /* white-space:inline; */
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-weight:450;
-    
-}
+    }
+
+
+    div {
+    text-align: justify;
+    text-justify: inter-word;
+    }  
 
 </style>
 
@@ -49,15 +52,18 @@
 <body>
 <header class="header" id="header"> <!--header-start-->
     <div class="container">
+        
+        <div class="row">
         <figure class="logo animated fadeInDown delay-07s">
             <a href="https://avvision.xyz/"><img src="img/logo.png" alt=""></a>
         </figure>
         <h1 class="animated fadeInDown delay-07s">2nd AVVision Workshop</h1>
         <ul class="we-create animated fadeInUp delay-1s">
             <br>
-            <br>
             <li>ICCV 2021</li>
         </ul>
+        </div>
+
     </div>
 </header><!--header-end-->
 
@@ -68,7 +74,7 @@
             <li><a href="#about" >About</a></li>
             <li><a href="#speakers" >Speakers</a></li>
             <li><a href="#organizers" >Organizers</a></li>
-            <li><a href="#client" >Submission</a></li>
+            <li><a href="#submission" >Submission</a></li>
             <li><a href="#sponsor">Sponsor</a></li>
             <li><a href="#contact">Program</a></li>
         </ul>
@@ -375,22 +381,9 @@
     </div>
 </section>
 
-<!-- <section class="main-section team" id="sponsor">
 
-    <div class="container">
-        <h2>Sponsor</h2>
-        <div style="text-align: center">
-            TBD
-            <br>
-        </div>
-    </div>
-</section> -->
 
-<!-- <section class="main-section team">
-
-</section> -->
-
-<section class="main-section paddind" id="about">
+<section class="main-section paddind" id="submission">
     <div class="container">
         <h2>Submission</h2>
         <h6 style="margin-bottom: 15px">Call for papers</h6>
@@ -437,16 +430,39 @@
             <li> Bio-inspired vision sensing for car perception; </li>
             <li> Real-time deep learning inference. </li>
         </ul>
+
         <h6 style="margin-bottom: 20px; margin-top: 50px" > Submission Guidelines</h6>
         Authors are encouraged to submit high-quality, original
         (i.e., not been previously published or accepted for publication
-        in substantially similar form in any peer-reviewed venue including journal,
-        conference or workshop) research.
+        in substantially similar form in any peer-reviewed venue 
+        including journal, conference or workshop) research.
 
-        The paper template is identical to the ICCV 2021 main conference.
-        The author toolkit (latex only) is available both on Overleaf and in Github.
+        The paper template is identical to the <a href="http://iccv2021.thecvf.com/node/4#submission-guidelines">ICCV 2021</a> main conference.
+        Papers are limited to eight pages, including figures and tables, 
+        in the ICCV style. Additional pages containing only cited 
+        references are allowed. Please refer to the following files for 
+        detailed formatting instructions:
 
+        <br>
+        <br>
+        <ul>
+        <li>Example submission paper with detailed instructions <a href="http://iccv2021.thecvf.com/sites/default/files/2020-09/egpaper_for_review.pdf">Download</a>; </li>
+        <li>LaTeX Templates (zip): iccv2021AuthorKit.zip <a href="http://iccv2021.thecvf.com/sites/default/files/2020-09/iccv2021AuthorKit.zip">Download</a></li>
+        </ul>
+    
+        Papers that are not properly anonymized, or do not use the template, or have more than eight pages (excluding references) will be rejected without review.
         
+        <br>
+        <br>
+        Submission Site (<a href="https://easychair.org/conferences/?conf=avvision2021">now open</a>)
+
+        <h6 style="margin-bottom: 20px; margin-top: 50px" >Important Dates</h6>
+        <ul>
+            <li> Paper submission deadline: Jul. 23, 2021 </li>
+            <li> Review feedback release date: Aug. 09, 2021 </li>
+            <li> Camera-ready Submission: Aug. 16, 2021 </li>
+        </ul>
+
 
     </div>
 
@@ -477,36 +493,35 @@
                     <li class="twitter"><a href="https://twitter.com/mias_avvision"><i class="fa-twitter"></i></a></li>
                     <li class="facebook"><a href="https://www.facebook.com/AVVision-102524081821979/"><i class="fa-facebook"></i></a></li>
                     <li class="pinterest"><a href="https://www.youtube.com/channel/UCL0Uxgn1f_3Dup31dtWe-QQ"><i class="fa-youtube"></i></a></li>
-                    <!-- <li class="gplus"><a href="#"><i class="fa-google-plus"></i></a></li>
-                    <li class="dribbble"><a href="#"><i class="fa-dribbble"></i></a></li> -->
+                    <li class="gplus"><a href="img/qr_code.jpg"><i class="fa-wechat"></i></a></li>
                 </ul>
             </div>
             <div class="col-lg-6 col-sm-5 wow fadeInUp delay-05s">
+                
                 <div class="form">
 
                     <div id="sendmessage">Your message has been sent. Thank you!</div>
                     <div id="errormessage"></div>
-                    <form action="" method="post" role="form" class="contactForm">
+                    <form action="mailto:avvision@mias.group" method="post" enctype="text/plain">
                         <div class="form-group">
-                            <input type="text" name="name" class="form-control input-text" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                            <input type="text" name="Name: " class="form-control form-footer" placeholder="Name" required="Name">
                             <div class="validation"></div>
                         </div>
                         <div class="form-group">
-                            <input type="email" class="form-control input-text" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                            <input type="text" name="Email: " class="form-control form-footer" placeholder="Email" required="Email">
                             <div class="validation"></div>
                         </div>
                         <div class="form-group">
-                            <input type="text" class="form-control input-text" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                            <div class="validation"></div>
-                        </div>
-                        <div class="form-group">
-                            <textarea class="form-control input-text text-area" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                            <textarea type="text" name="Message: " class="form-control form-footer" rows="10" placeholder="Message" required="Message"></textarea>
                             <div class="validation"></div>
                         </div>
 
                         <div class="text-center"><button type="submit" class="input-btn">Send Message</button></div>
                     </form>
                 </div>
+
+
+
             </div>
         </div>
     </section>
