@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5, h6 {
     background-image: linear-gradient(to top, rgba(46, 49, 65, 0), rgba(46, 49, 65, 1)), url(../images/01_header_image.jpg);
 	background-size: auto, cover;
 	/* background-size: 100px, 1000px; */
-    background-attachment: fixed;
+    background-attachment: relative;
     background-position: center, center;
     background-repeat: no-repeat;
 	padding: 10em 0 4.75em 0 ;
@@ -653,13 +653,29 @@ body.is-menu-visible #menu .inner {
 }
 
 .elements-header {
-	background-image: url(../../imgs/avvision_lr.png);
-	background-repeat: no-repeat;
+	background-image: url(../../imgs/avvision_lr3.jpg);
+	background-attachment: relative;
+	background-repeat:no-repeat;
+	background-position: center;
+	background-size: cover;
 	height: 550px;
     /* background-position-y: -300px;
     background-position-x: -500px; */
-    position: relative;
+    /* position: relative; */
 }
+
+
+/* .header{
+	text-align:center;
+	background-image: url(../img/bg3.png);
+	background-attachment: relative;
+	background-repeat:no-repeat;
+	background-position: center;
+	background-size: cover;
+	width:100%;
+	padding: 9%;
+} */
+
 
 .header-design {
 	margin-top: 240px;
