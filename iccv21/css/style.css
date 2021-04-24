@@ -70,36 +70,25 @@ h2{
 	letter-spacing: -1px;
 	margin:0px 0px 25px 0px;
 	text-align:center;
-	/* text-transform:uppercase; */
 }
 h3{
 	font-family: 'Montserrat', sans-serif;
 	color:#222222;
 	font-size:16px;
 	margin:20px 0 5px 0;
-	/* text-transform:uppercase; */
 	font-weight:550;
 }
 
 h4{
+	white-space: pre-line;
+	text-align: left;
+	float: left;
 	font-family: 'Montserrat', sans-serif;
 	color:#4b4a4a;
 	font-size:16px;
-	/* margin:20px 0 5px 0; */
-	/* text-transform:uppercase; */
 	font-weight:550;
 }
 
-h5{
-	/* display: inline-block; */
-	font-family: 'Montserrat', sans-serif;
-	color:#4b4a4a;
-	font-size:16px;
-	/* width:160px; */
-	/* margin:20px 0 5px 0; */
-	/* text-transform:uppercase; */
-	font-weight:450;
-}
 
 
 
@@ -578,11 +567,11 @@ border: 2px solid #fff;
 	margin: 00px 50px;
 	display: inline-block;
 }
-.pc-member.name{
+/* .pc-member.name{
 	font-family: "Times New Roman";
-}
+} */
 
-.pc-member.company{
+/* .pc-member.company{
 	font-family: Georgia;
     margin: 0 auto;
 	float: left;
@@ -590,7 +579,7 @@ border: 2px solid #fff;
 	display: block;
 	display: inline;
 
-}
+} */
 
 
 /* Team
