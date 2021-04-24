@@ -206,32 +206,27 @@ color: #fff;
 }
 .main-nav{
 	text-align:center;
-    /*
-	overflow: hidden;
-	text-align:center;
-	margin: 5px 0 0px;
-	padding:0;
-	list-style:none;
-	*/
     display: inline-block;
-	white-space: nowrap; /*段落文本不换行*/
+	white-space: nowrap; 
+	/*段落文本不换行*/
 
 }
 .main-nav li{
 	text-align:center;
 	overflow: hidden;
 	display:inline;
-	margin:0 1px;
+	/* margin:0 1px; */
 }
 .main-nav li a{
+	text-align: center;
     display:inline-block;
     color:#222222;
     text-transform:uppercase;
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
 	font-size: 15px;
-    line-height:20px;
-    margin:17px 32px;
+    /* line-height:20px; */
+    margin:17px 30px 0px 0px;
     transition:all 0.3s ease-in-out;
     -moz-transition:all 0.3s ease-in-out;
     -webkit-transition:all 0.3s ease-in-out;
