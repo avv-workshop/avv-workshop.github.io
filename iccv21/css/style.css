@@ -111,21 +111,21 @@ p{
 
 .header{
 	text-align:center;
-	background-image: url(../img/bg2.jpg);
+	background-image: url(../img/bg3.png);
 	background-attachment: relative;
 	background-repeat:no-repeat;
 	background-position: center;
 	background-size: cover;
-	height: 460px;
+	/* height: 30%; */
 	width:100%;
-	padding: 100px;
+	padding: 9%;
 	/* background:url(../img/bg.png) left top repeat; */
 	/* padding:100px 0; */
 	/* position: fixed !important; */
 }
 .logo{
-	width:330px;
-	margin:0 auto 35px;
+	width:20%;
+	/* margin:0 auto 35px; */
 }
 .header h1{
 	font-family: 'Montserrat',sans-serif;
@@ -133,7 +133,8 @@ p{
 	font-weight:600;
 	/* letter-spacing: -1px; */
 	margin:0 0 0px 0 ;
-	color:#fff;
+	/* color:#cbced0; */
+	color:#ffffff;
 }
 
 .we-create{
