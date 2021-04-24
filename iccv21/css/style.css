@@ -58,7 +58,7 @@ a, a:hover, a:active{ outline:0px !important}
 body {
 	background:#fff;
 	font-family: 'Open Sans', sans-serif;
-	/*font-size:20px;*/
+	/* font-size:20px; */
 	font-size:2rem;
 	font-weight:normal;
 	color:#888888;
@@ -68,7 +68,7 @@ body {
 h2{
 
 	/*font-size:34px;*/
-	font-size:3.8rem;
+	font-size:2.3rem;
 	color:#111111;
 	font-family: 'Montserrat', sans-serif;
 	font-weight:700;
@@ -84,7 +84,7 @@ h3{
 	font-family: 'Montserrat', sans-serif;
 	color:#222222;
 	/*font-size:16px;*/
-	font-size:1.6rem;
+	font-size:1.2rem;
 	/*margin:20px 0 5px 0;*/
 
 	margin:2.0rem 0 0.5rem 0;
@@ -98,7 +98,7 @@ h4{
 	font-family: 'Montserrat', sans-serif;
 	color:#4b4a4a;
 	/*font-size:16px;*/
-	font-size:2rem;
+	font-size:1.2rem;
 	font-weight:550;
 }
 
@@ -108,7 +108,7 @@ h4{
 h6{
 	/*font-size:26px;*/
 
-	font-size:3rem;
+	font-size:2rem;
 	color:#888888;
 	font-family: 'Open Sans', sans-serif;
 	font-weight:400;
@@ -122,7 +122,7 @@ p{
 	line-height:16px;
      */
 
-	font-size:1.6rem;
+	font-size:1.2rem;
 	line-height:1.6rem;
 
 	margin:0;
@@ -255,7 +255,7 @@ color: #fff;
     display: inline-block;
 	white-space: nowrap;
 	width: 100%;
-	 font-size: 200%;
+	font-size: 150%;
 	/* margin-left: auto; */
 	/*段落文本不换行*/
 }
@@ -265,7 +265,7 @@ color: #fff;
 	text-align:center;
 	/* overflow: hidden; */
 	display:inline;
-	margin-left: 2rem;
+	/* margin-left: 2rem; */
 	margin-right: 2rem;
 	/* margin-inline-start: 5%; */
 	/* font-size: 90%; */
@@ -309,7 +309,6 @@ color: #fff;
 
 .main-section{
 	/*padding:50px 0 00px;*/
-
 	padding:5rem 0 00px;
 }
 
@@ -864,19 +863,19 @@ border: 0.2rem solid #fff;
 /* Contact
 ---------------------------------*/
 .main-section.contact{
-	padding:9.0rem 0 10.0rem;
+	padding:2.0rem 0 10.0rem;
 }
 
 .main-section.contact{
 	background:url(../img/bg-map.png) left 0px no-repeat;
 }
 .contact-info-box{
-	font-size:1.5rem;
+	font-size:1rem;
 	/* margin:0 0 0px 68px; */
 	padding-left:0;
 }
 .contact-info-box h3{
-	font-size: 1.5rem;
+	font-size: 1.3rem;
 	font-weight:400;
 	float:left;
 	/* width:402px; */
@@ -885,7 +884,7 @@ border: 0.2rem solid #fff;
 }
 .contact-info-box h3 i{
 	font-style:normal;
-	font-size:1.8rem;
+	font-size:1.3rem;
 	color:#222222;
 	font-family: 'FontAwesome';
 	font-weight:normal;
@@ -909,11 +908,11 @@ border: 0.2rem solid #fff;
 }
 .social-link li a{
 	display:block;
-	width:5.0rem;
-	height:5.0rem;
+	width:4.0rem;
+	height:4.0rem;
 	text-align:center;
-	line-height:5.0rem;
-	font-size:2.5rem;
+	line-height:4.0rem;
+	/* font-size:2.5rem; */
 	color:#fff;
 	background:#222222;
 	border-radius:50%;
